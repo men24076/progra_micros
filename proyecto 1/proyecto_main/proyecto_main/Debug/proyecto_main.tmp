@@ -1,0 +1,50 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.2.8</VERSION>
+ <DEVICE>"ATmega328P"</DEVICE>
+ <WORKING_DIR>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto_main\proyecto_main\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc</DIR>
+  <DIR>C:\Program Files (x86)\Atmel\Studio\7.0\toolchain\avr8\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto_main\proyecto_main\main.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\m328Pdef.inc</FILE>
+  <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto_main\proyecto_main\Debug\proyecto_main.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>proyecto_main.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>proyecto_main.map</FILE>
+  <FILE>proyecto_main.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <START><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto_main\proyecto_main\main.asm</FILE><LINE>31</LINE></START>
+  <PIND_ISR><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto_main\proyecto_main\main.asm</FILE><LINE>164</LINE></PIND_ISR>
+  <TIMER1_ISR><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto_main\proyecto_main\main.asm</FILE><LINE>213</LINE></TIMER1_ISR>
+  <SETUP><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto_main\proyecto_main\main.asm</FILE><LINE>40</LINE></SETUP>
+  <INIT_TIMER1><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto_main\proyecto_main\main.asm</FILE><LINE>150</LINE></INIT_TIMER1>
+  <MAIN_LOOP><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto_main\proyecto_main\main.asm</FILE><LINE>93</LINE></MAIN_LOOP>
+  <INC_MODE><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto_main\proyecto_main\main.asm</FILE><LINE>108</LINE></INC_MODE>
+  <DEC_MODE><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto_main\proyecto_main\main.asm</FILE><LINE>118</LINE></DEC_MODE>
+  <AUTO_INC_MODE><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto_main\proyecto_main\main.asm</FILE><LINE>128</LINE></AUTO_INC_MODE>
+  <AUTO_DEC_MODE><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto_main\proyecto_main\main.asm</FILE><LINE>138</LINE></AUTO_DEC_MODE>
+  <EXIT_IM><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto_main\proyecto_main\main.asm</FILE><LINE>115</LINE></EXIT_IM>
+  <EXIT_DM><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto_main\proyecto_main\main.asm</FILE><LINE>125</LINE></EXIT_DM>
+  <EXIT_AIM><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto_main\proyecto_main\main.asm</FILE><LINE>135</LINE></EXIT_AIM>
+  <EXIT_ADM><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto_main\proyecto_main\main.asm</FILE><LINE>145</LINE></EXIT_ADM>
+  <CONTINUAR><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto_main\proyecto_main\main.asm</FILE><LINE>177</LINE></CONTINUAR>
+  <INC_MODE_ISR><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto_main\proyecto_main\main.asm</FILE><LINE>188</LINE></INC_MODE_ISR>
+  <DEC_MODE_ISR><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto_main\proyecto_main\main.asm</FILE><LINE>194</LINE></DEC_MODE_ISR>
+  <AUTO_DEC_MODE_ISR><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto_main\proyecto_main\main.asm</FILE><LINE>203</LINE></AUTO_DEC_MODE_ISR>
+  <EXIT_PIND_ISR><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto_main\proyecto_main\main.asm</FILE><LINE>206</LINE></EXIT_PIND_ISR>
+  <AUTO_INC_MODE_ISR><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto_main\proyecto_main\main.asm</FILE><LINE>200</LINE></AUTO_INC_MODE_ISR>
+  <MODE2_ISR><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto_main\proyecto_main\main.asm</FILE><LINE>236</LINE></MODE2_ISR>
+  <MODE3_ISR><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto_main\proyecto_main\main.asm</FILE><LINE>240</LINE></MODE3_ISR>
+  <EDIT_TIMER1_ISR><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto_main\proyecto_main\main.asm</FILE><LINE>244</LINE></EDIT_TIMER1_ISR>
+ </LABELS>
+</ASSEMBLER_INFO>

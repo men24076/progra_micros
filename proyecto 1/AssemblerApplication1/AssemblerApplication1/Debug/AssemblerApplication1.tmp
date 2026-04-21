@@ -1,0 +1,209 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.2.8</VERSION>
+ <DEVICE>"ATmega328P"</DEVICE>
+ <WORKING_DIR>C:\Users\joe05\Desktop\progra_micros\proyecto 1\AssemblerApplication1\AssemblerApplication1\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc</DIR>
+  <DIR>C:\Program Files (x86)\Atmel\Studio\7.0\toolchain\avr8\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\AssemblerApplication1\AssemblerApplication1\main.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\m328Pdef.inc</FILE>
+  <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\AssemblerApplication1\AssemblerApplication1\Debug\AssemblerApplication1.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>AssemblerApplication1.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>AssemblerApplication1.map</FILE>
+  <FILE>AssemblerApplication1.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <MULTIPLEXOR><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\AssemblerApplication1\AssemblerApplication1\main.asm</FILE><LINE>17</LINE></MULTIPLEXOR>
+  <DISP_VALUE><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\AssemblerApplication1\AssemblerApplication1\main.asm</FILE><LINE>18</LINE></DISP_VALUE>
+  <UN_MIN><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\AssemblerApplication1\AssemblerApplication1\main.asm</FILE><LINE>20</LINE></UN_MIN>
+  <DEC_MIN><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\AssemblerApplication1\AssemblerApplication1\main.asm</FILE><LINE>21</LINE></DEC_MIN>
+  <UN_HORA><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\AssemblerApplication1\AssemblerApplication1\main.asm</FILE><LINE>22</LINE></UN_HORA>
+  <DEC_HORA><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\AssemblerApplication1\AssemblerApplication1\main.asm</FILE><LINE>23</LINE></DEC_HORA>
+  <UN_DIA><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\AssemblerApplication1\AssemblerApplication1\main.asm</FILE><LINE>25</LINE></UN_DIA>
+  <DEC_DIA><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\AssemblerApplication1\AssemblerApplication1\main.asm</FILE><LINE>26</LINE></DEC_DIA>
+  <UN_MES><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\AssemblerApplication1\AssemblerApplication1\main.asm</FILE><LINE>27</LINE></UN_MES>
+  <DEC_MES><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\AssemblerApplication1\AssemblerApplication1\main.asm</FILE><LINE>28</LINE></DEC_MES>
+  <UN_MIN_ALARMA><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\AssemblerApplication1\AssemblerApplication1\main.asm</FILE><LINE>30</LINE></UN_MIN_ALARMA>
+  <DEC_MIN_ALARMA><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\AssemblerApplication1\AssemblerApplication1\main.asm</FILE><LINE>31</LINE></DEC_MIN_ALARMA>
+  <UN_HORA_ALARMA><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\AssemblerApplication1\AssemblerApplication1\main.asm</FILE><LINE>32</LINE></UN_HORA_ALARMA>
+  <DEC_HORA_ALARMA><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\AssemblerApplication1\AssemblerApplication1\main.asm</FILE><LINE>33</LINE></DEC_HORA_ALARMA>
+  <TIEMPO><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\AssemblerApplication1\AssemblerApplication1\main.asm</FILE><LINE>35</LINE></TIEMPO>
+  <MODE><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\AssemblerApplication1\AssemblerApplication1\main.asm</FILE><LINE>36</LINE></MODE>
+  <CONTAR><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\AssemblerApplication1\AssemblerApplication1\main.asm</FILE><LINE>37</LINE></CONTAR>
+  <MULTIPLEXION><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\AssemblerApplication1\AssemblerApplication1\main.asm</FILE><LINE>38</LINE></MULTIPLEXION>
+  <BTN_F_UP><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\AssemblerApplication1\AssemblerApplication1\main.asm</FILE><LINE>40</LINE></BTN_F_UP>
+  <BTN_F_DN><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\AssemblerApplication1\AssemblerApplication1\main.asm</FILE><LINE>41</LINE></BTN_F_DN>
+  <BTN_H_UP><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\AssemblerApplication1\AssemblerApplication1\main.asm</FILE><LINE>42</LINE></BTN_H_UP>
+  <BTN_H_DN><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\AssemblerApplication1\AssemblerApplication1\main.asm</FILE><LINE>43</LINE></BTN_H_DN>
+  <ALARMA><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\AssemblerApplication1\AssemblerApplication1\main.asm</FILE><LINE>45</LINE></ALARMA>
+  <DISP0><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\AssemblerApplication1\AssemblerApplication1\main.asm</FILE><LINE>46</LINE></DISP0>
+  <DISP1><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\AssemblerApplication1\AssemblerApplication1\main.asm</FILE><LINE>47</LINE></DISP1>
+  <DISP2><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\AssemblerApplication1\AssemblerApplication1\main.asm</FILE><LINE>48</LINE></DISP2>
+  <DISP3><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\AssemblerApplication1\AssemblerApplication1\main.asm</FILE><LINE>49</LINE></DISP3>
+  <START><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\AssemblerApplication1\AssemblerApplication1\main.asm</FILE><LINE>66</LINE></START>
+  <PINB_ISR><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\AssemblerApplication1\AssemblerApplication1\main.asm</FILE><LINE>1047</LINE></PINB_ISR>
+  <PIND_ISR><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\AssemblerApplication1\AssemblerApplication1\main.asm</FILE><LINE>1096</LINE></PIND_ISR>
+  <TMR1_ISR><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\AssemblerApplication1\AssemblerApplication1\main.asm</FILE><LINE>1145</LINE></TMR1_ISR>
+  <TMR0_ISR><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\AssemblerApplication1\AssemblerApplication1\main.asm</FILE><LINE>1132</LINE></TMR0_ISR>
+  <table7seg><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\AssemblerApplication1\AssemblerApplication1\main.asm</FILE><LINE>63</LINE></table7seg>
+  <INIT_TMR1><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\AssemblerApplication1\AssemblerApplication1\main.asm</FILE><LINE>1027</LINE></INIT_TMR1>
+  <INIT_TMR0><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\AssemblerApplication1\AssemblerApplication1\main.asm</FILE><LINE>1038</LINE></INIT_TMR0>
+  <MAIN_LOOP><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\AssemblerApplication1\AssemblerApplication1\main.asm</FILE><LINE>165</LINE></MAIN_LOOP>
+  <VERIFY_MODE0><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\AssemblerApplication1\AssemblerApplication1\main.asm</FILE><LINE>166</LINE></VERIFY_MODE0>
+  <VERIFY_MODE1><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\AssemblerApplication1\AssemblerApplication1\main.asm</FILE><LINE>171</LINE></VERIFY_MODE1>
+  <MODE_0><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\AssemblerApplication1\AssemblerApplication1\main.asm</FILE><LINE>273</LINE></MODE_0>
+  <VERIFY_MODE2><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\AssemblerApplication1\AssemblerApplication1\main.asm</FILE><LINE>175</LINE></VERIFY_MODE2>
+  <MODE_1><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\AssemblerApplication1\AssemblerApplication1\main.asm</FILE><LINE>279</LINE></MODE_1>
+  <VERIFY_MODE3><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\AssemblerApplication1\AssemblerApplication1\main.asm</FILE><LINE>179</LINE></VERIFY_MODE3>
+  <MODE_2><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\AssemblerApplication1\AssemblerApplication1\main.asm</FILE><LINE>285</LINE></MODE_2>
+  <VERIFY_MODE4><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\AssemblerApplication1\AssemblerApplication1\main.asm</FILE><LINE>183</LINE></VERIFY_MODE4>
+  <MODE_3><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\AssemblerApplication1\AssemblerApplication1\main.asm</FILE><LINE>289</LINE></MODE_3>
+  <VERIFY_MODE5><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\AssemblerApplication1\AssemblerApplication1\main.asm</FILE><LINE>187</LINE></VERIFY_MODE5>
+  <MODE_4><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\AssemblerApplication1\AssemblerApplication1\main.asm</FILE><LINE>293</LINE></MODE_4>
+  <MULTIPLEXAR><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\AssemblerApplication1\AssemblerApplication1\main.asm</FILE><LINE>192</LINE></MULTIPLEXAR>
+  <MODE_5><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\AssemblerApplication1\AssemblerApplication1\main.asm</FILE><LINE>297</LINE></MODE_5>
+  <MULTIPLEXACION><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\AssemblerApplication1\AssemblerApplication1\main.asm</FILE><LINE>901</LINE></MULTIPLEXACION>
+  <MOSTRAR><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\AssemblerApplication1\AssemblerApplication1\main.asm</FILE><LINE>195</LINE></MOSTRAR>
+  <DIG1><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\AssemblerApplication1\AssemblerApplication1\main.asm</FILE><LINE>220</LINE></DIG1>
+  <CHECK_DP><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\AssemblerApplication1\AssemblerApplication1\main.asm</FILE><LINE>233</LINE></CHECK_DP>
+  <DIG2><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\AssemblerApplication1\AssemblerApplication1\main.asm</FILE><LINE>225</LINE></DIG2>
+  <DIG3><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\AssemblerApplication1\AssemblerApplication1\main.asm</FILE><LINE>230</LINE></DIG3>
+  <USE_DP><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\AssemblerApplication1\AssemblerApplication1\main.asm</FILE><LINE>240</LINE></USE_DP>
+  <NO_DP><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\AssemblerApplication1\AssemblerApplication1\main.asm</FILE><LINE>244</LINE></NO_DP>
+  <ACTUALIZAR_PORTB><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\AssemblerApplication1\AssemblerApplication1\main.asm</FILE><LINE>250</LINE></ACTUALIZAR_PORTB>
+  <LED_FECHA><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\AssemblerApplication1\AssemblerApplication1\main.asm</FILE><LINE>261</LINE></LED_FECHA>
+  <CHECK_BUZZER><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\AssemblerApplication1\AssemblerApplication1\main.asm</FILE><LINE>264</LINE></CHECK_BUZZER>
+  <SALIDA_B><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\AssemblerApplication1\AssemblerApplication1\main.asm</FILE><LINE>269</LINE></SALIDA_B>
+  <ACTUALIZAR_RELOJ_SI_TOCA><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\AssemblerApplication1\AssemblerApplication1\main.asm</FILE><LINE>301</LINE></ACTUALIZAR_RELOJ_SI_TOCA>
+  <REVISAR_ALARMA><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\AssemblerApplication1\AssemblerApplication1\main.asm</FILE><LINE>469</LINE></REVISAR_ALARMA>
+  <APAGAR_ALARMA_SI_BOTON><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\AssemblerApplication1\AssemblerApplication1\main.asm</FILE><LINE>493</LINE></APAGAR_ALARMA_SI_BOTON>
+  <PROCESAR_CFG_HORA><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\AssemblerApplication1\AssemblerApplication1\main.asm</FILE><LINE>520</LINE></PROCESAR_CFG_HORA>
+  <PROCESAR_CFG_FECHA><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\AssemblerApplication1\AssemblerApplication1\main.asm</FILE><LINE>563</LINE></PROCESAR_CFG_FECHA>
+  <PROCESAR_CFG_ALARMA><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\AssemblerApplication1\AssemblerApplication1\main.asm</FILE><LINE>606</LINE></PROCESAR_CFG_ALARMA>
+  <ARST_NO><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\AssemblerApplication1\AssemblerApplication1\main.asm</FILE><LINE>310</LINE></ARST_NO>
+  <SUMAR_MINUTO><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\AssemblerApplication1\AssemblerApplication1\main.asm</FILE><LINE>314</LINE></SUMAR_MINUTO>
+  <SUM_DEC_MIN><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\AssemblerApplication1\AssemblerApplication1\main.asm</FILE><LINE>328</LINE></SUM_DEC_MIN>
+  <GUARDAR_TIEMPO><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\AssemblerApplication1\AssemblerApplication1\main.asm</FILE><LINE>359</LINE></GUARDAR_TIEMPO>
+  <SUM_UN_HORA><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\AssemblerApplication1\AssemblerApplication1\main.asm</FILE><LINE>334</LINE></SUM_UN_HORA>
+  <VERIFY_24><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\AssemblerApplication1\AssemblerApplication1\main.asm</FILE><LINE>345</LINE></VERIFY_24>
+  <SUM_DEC_HORA><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\AssemblerApplication1\AssemblerApplication1\main.asm</FILE><LINE>342</LINE></SUM_DEC_HORA>
+  <SUMAR_DIA_LOGICA><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\AssemblerApplication1\AssemblerApplication1\main.asm</FILE><LINE>370</LINE></SUMAR_DIA_LOGICA>
+  <SD_TRES_FINALES><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\AssemblerApplication1\AssemblerApplication1\main.asm</FILE><LINE>380</LINE></SD_TRES_FINALES>
+  <SD_NUEVE_PRIMEROS><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\AssemblerApplication1\AssemblerApplication1\main.asm</FILE><LINE>385</LINE></SD_NUEVE_PRIMEROS>
+  <SD_30><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\AssemblerApplication1\AssemblerApplication1\main.asm</FILE><LINE>413</LINE></SD_30>
+  <SD_31><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\AssemblerApplication1\AssemblerApplication1\main.asm</FILE><LINE>430</LINE></SD_31>
+  <SD_28><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\AssemblerApplication1\AssemblerApplication1\main.asm</FILE><LINE>396</LINE></SD_28>
+  <SD_V28><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\AssemblerApplication1\AssemblerApplication1\main.asm</FILE><LINE>404</LINE></SD_V28>
+  <SD_SAVE><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\AssemblerApplication1\AssemblerApplication1\main.asm</FILE><LINE>462</LINE></SD_SAVE>
+  <CAMBIO_MES_SD><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\AssemblerApplication1\AssemblerApplication1\main.asm</FILE><LINE>446</LINE></CAMBIO_MES_SD>
+  <SD_V30><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\AssemblerApplication1\AssemblerApplication1\main.asm</FILE><LINE>421</LINE></SD_V30>
+  <SD_V31><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\AssemblerApplication1\AssemblerApplication1\main.asm</FILE><LINE>438</LINE></SD_V31>
+  <SD_V12><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\AssemblerApplication1\AssemblerApplication1\main.asm</FILE><LINE>454</LINE></SD_V12>
+  <RA_EXIT><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\AssemblerApplication1\AssemblerApplication1\main.asm</FILE><LINE>490</LINE></RA_EXIT>
+  <APAGAR_AHORA><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\AssemblerApplication1\AssemblerApplication1\main.asm</FILE><LINE>509</LINE></APAGAR_AHORA>
+  <PCH_2><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\AssemblerApplication1\AssemblerApplication1\main.asm</FILE><LINE>529</LINE></PCH_2>
+  <INC_MINUTO><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\AssemblerApplication1\AssemblerApplication1\main.asm</FILE><LINE>649</LINE></INC_MINUTO>
+  <PCH_3><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\AssemblerApplication1\AssemblerApplication1\main.asm</FILE><LINE>539</LINE></PCH_3>
+  <DEC_MINUTO_SUB><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\AssemblerApplication1\AssemblerApplication1\main.asm</FILE><LINE>665</LINE></DEC_MINUTO_SUB>
+  <PCH_4><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\AssemblerApplication1\AssemblerApplication1\main.asm</FILE><LINE>549</LINE></PCH_4>
+  <INC_HORA><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\AssemblerApplication1\AssemblerApplication1\main.asm</FILE><LINE>681</LINE></INC_HORA>
+  <PCH_EXIT><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\AssemblerApplication1\AssemblerApplication1\main.asm</FILE><LINE>559</LINE></PCH_EXIT>
+  <DEC_HORA_SUB><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\AssemblerApplication1\AssemblerApplication1\main.asm</FILE><LINE>705</LINE></DEC_HORA_SUB>
+  <PCF_2><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\AssemblerApplication1\AssemblerApplication1\main.asm</FILE><LINE>572</LINE></PCF_2>
+  <INC_DIA><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\AssemblerApplication1\AssemblerApplication1\main.asm</FILE><LINE>769</LINE></INC_DIA>
+  <PCF_3><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\AssemblerApplication1\AssemblerApplication1\main.asm</FILE><LINE>582</LINE></PCF_3>
+  <DEC_DIA_SUB><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\AssemblerApplication1\AssemblerApplication1\main.asm</FILE><LINE>773</LINE></DEC_DIA_SUB>
+  <PCF_4><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\AssemblerApplication1\AssemblerApplication1\main.asm</FILE><LINE>592</LINE></PCF_4>
+  <INC_MES><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\AssemblerApplication1\AssemblerApplication1\main.asm</FILE><LINE>724</LINE></INC_MES>
+  <PCF_EXIT><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\AssemblerApplication1\AssemblerApplication1\main.asm</FILE><LINE>602</LINE></PCF_EXIT>
+  <DEC_MES_SUB><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\AssemblerApplication1\AssemblerApplication1\main.asm</FILE><LINE>748</LINE></DEC_MES_SUB>
+  <PCA_2><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\AssemblerApplication1\AssemblerApplication1\main.asm</FILE><LINE>615</LINE></PCA_2>
+  <INC_MIN_ALARMA><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\AssemblerApplication1\AssemblerApplication1\main.asm</FILE><LINE>826</LINE></INC_MIN_ALARMA>
+  <PCA_3><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\AssemblerApplication1\AssemblerApplication1\main.asm</FILE><LINE>625</LINE></PCA_3>
+  <DEC_MIN_ALARMA_SUB><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\AssemblerApplication1\AssemblerApplication1\main.asm</FILE><LINE>842</LINE></DEC_MIN_ALARMA_SUB>
+  <PCA_4><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\AssemblerApplication1\AssemblerApplication1\main.asm</FILE><LINE>635</LINE></PCA_4>
+  <INC_HORA_ALARMA><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\AssemblerApplication1\AssemblerApplication1\main.asm</FILE><LINE>858</LINE></INC_HORA_ALARMA>
+  <PCA_EXIT><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\AssemblerApplication1\AssemblerApplication1\main.asm</FILE><LINE>645</LINE></PCA_EXIT>
+  <DEC_HORA_ALARMA_SUB><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\AssemblerApplication1\AssemblerApplication1\main.asm</FILE><LINE>882</LINE></DEC_HORA_ALARMA_SUB>
+  <GIM><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\AssemblerApplication1\AssemblerApplication1\main.asm</FILE><LINE>660</LINE></GIM>
+  <GDM><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\AssemblerApplication1\AssemblerApplication1\main.asm</FILE><LINE>676</LINE></GDM>
+  <IH_V24><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\AssemblerApplication1\AssemblerApplication1\main.asm</FILE><LINE>693</LINE></IH_V24>
+  <IH_SUMDEC><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\AssemblerApplication1\AssemblerApplication1\main.asm</FILE><LINE>690</LINE></IH_SUMDEC>
+  <GIH><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\AssemblerApplication1\AssemblerApplication1\main.asm</FILE><LINE>700</LINE></GIH>
+  <DH_DEC><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\AssemblerApplication1\AssemblerApplication1\main.asm</FILE><LINE>712</LINE></DH_DEC>
+  <GDH><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\AssemblerApplication1\AssemblerApplication1\main.asm</FILE><LINE>719</LINE></GDH>
+  <IM_V12><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\AssemblerApplication1\AssemblerApplication1\main.asm</FILE><LINE>736</LINE></IM_V12>
+  <IM_SUMDEC><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\AssemblerApplication1\AssemblerApplication1\main.asm</FILE><LINE>733</LINE></IM_SUMDEC>
+  <GMEI><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\AssemblerApplication1\AssemblerApplication1\main.asm</FILE><LINE>743</LINE></GMEI>
+  <DM_N><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\AssemblerApplication1\AssemblerApplication1\main.asm</FILE><LINE>758</LINE></DM_N>
+  <GMED><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\AssemblerApplication1\AssemblerApplication1\main.asm</FILE><LINE>764</LINE></GMED>
+  <DD_NORMAL><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\AssemblerApplication1\AssemblerApplication1\main.asm</FILE><LINE>813</LINE></DD_NORMAL>
+  <DD_TRES_F><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\AssemblerApplication1\AssemblerApplication1\main.asm</FILE><LINE>787</LINE></DD_TRES_F>
+  <DD_NUEVE_P><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\AssemblerApplication1\AssemblerApplication1\main.asm</FILE><LINE>791</LINE></DD_NUEVE_P>
+  <DD_30><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\AssemblerApplication1\AssemblerApplication1\main.asm</FILE><LINE>805</LINE></DD_30>
+  <DD_31><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\AssemblerApplication1\AssemblerApplication1\main.asm</FILE><LINE>809</LINE></DD_31>
+  <DD_28><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\AssemblerApplication1\AssemblerApplication1\main.asm</FILE><LINE>801</LINE></DD_28>
+  <DD_SAVE><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\AssemblerApplication1\AssemblerApplication1\main.asm</FILE><LINE>819</LINE></DD_SAVE>
+  <GIMA><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\AssemblerApplication1\AssemblerApplication1\main.asm</FILE><LINE>837</LINE></GIMA>
+  <GDMA><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\AssemblerApplication1\AssemblerApplication1\main.asm</FILE><LINE>853</LINE></GDMA>
+  <IHA_V24><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\AssemblerApplication1\AssemblerApplication1\main.asm</FILE><LINE>870</LINE></IHA_V24>
+  <IHA_SUMDEC><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\AssemblerApplication1\AssemblerApplication1\main.asm</FILE><LINE>867</LINE></IHA_SUMDEC>
+  <GIHA><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\AssemblerApplication1\AssemblerApplication1\main.asm</FILE><LINE>877</LINE></GIHA>
+  <DHA_DEC><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\AssemblerApplication1\AssemblerApplication1\main.asm</FILE><LINE>889</LINE></DHA_DEC>
+  <GDHA><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\AssemblerApplication1\AssemblerApplication1\main.asm</FILE><LINE>896</LINE></GDHA>
+  <NO_MULTIPLEXAR><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\AssemblerApplication1\AssemblerApplication1\main.asm</FILE><LINE>910</LINE></NO_MULTIPLEXAR>
+  <MULTIPLEXAR_VALORES><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\AssemblerApplication1\AssemblerApplication1\main.asm</FILE><LINE>914</LINE></MULTIPLEXAR_VALORES>
+  <EXIT_MULTIPLEXACION><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\AssemblerApplication1\AssemblerApplication1\main.asm</FILE><LINE>1024</LINE></EXIT_MULTIPLEXACION>
+  <VAL_HORA><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\AssemblerApplication1\AssemblerApplication1\main.asm</FILE><LINE>930</LINE></VAL_HORA>
+  <VAL_FECHA><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\AssemblerApplication1\AssemblerApplication1\main.asm</FILE><LINE>932</LINE></VAL_FECHA>
+  <VAL_ALARMA><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\AssemblerApplication1\AssemblerApplication1\main.asm</FILE><LINE>934</LINE></VAL_ALARMA>
+  <MOSTRAR_HORA><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\AssemblerApplication1\AssemblerApplication1\main.asm</FILE><LINE>937</LINE></MOSTRAR_HORA>
+  <MOSTRAR_FECHA><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\AssemblerApplication1\AssemblerApplication1\main.asm</FILE><LINE>966</LINE></MOSTRAR_FECHA>
+  <MOSTRAR_HORA_ALARMA><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\AssemblerApplication1\AssemblerApplication1\main.asm</FILE><LINE>995</LINE></MOSTRAR_HORA_ALARMA>
+  <MH0><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\AssemblerApplication1\AssemblerApplication1\main.asm</FILE><LINE>946</LINE></MH0>
+  <MH1><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\AssemblerApplication1\AssemblerApplication1\main.asm</FILE><LINE>950</LINE></MH1>
+  <MH2><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\AssemblerApplication1\AssemblerApplication1\main.asm</FILE><LINE>954</LINE></MH2>
+  <MH3><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\AssemblerApplication1\AssemblerApplication1\main.asm</FILE><LINE>958</LINE></MH3>
+  <MHG><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\AssemblerApplication1\AssemblerApplication1\main.asm</FILE><LINE>961</LINE></MHG>
+  <MF0><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\AssemblerApplication1\AssemblerApplication1\main.asm</FILE><LINE>975</LINE></MF0>
+  <MF1><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\AssemblerApplication1\AssemblerApplication1\main.asm</FILE><LINE>979</LINE></MF1>
+  <MF2><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\AssemblerApplication1\AssemblerApplication1\main.asm</FILE><LINE>983</LINE></MF2>
+  <MF3><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\AssemblerApplication1\AssemblerApplication1\main.asm</FILE><LINE>987</LINE></MF3>
+  <MFG><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\AssemblerApplication1\AssemblerApplication1\main.asm</FILE><LINE>990</LINE></MFG>
+  <MA0><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\AssemblerApplication1\AssemblerApplication1\main.asm</FILE><LINE>1004</LINE></MA0>
+  <MA1><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\AssemblerApplication1\AssemblerApplication1\main.asm</FILE><LINE>1008</LINE></MA1>
+  <MA2><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\AssemblerApplication1\AssemblerApplication1\main.asm</FILE><LINE>1012</LINE></MA2>
+  <MA3><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\AssemblerApplication1\AssemblerApplication1\main.asm</FILE><LINE>1016</LINE></MA3>
+  <MAG><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\AssemblerApplication1\AssemblerApplication1\main.asm</FILE><LINE>1019</LINE></MAG>
+  <DELAY_BTN_B><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\AssemblerApplication1\AssemblerApplication1\main.asm</FILE><LINE>1177</LINE></DELAY_BTN_B>
+  <PB_MODE><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\AssemblerApplication1\AssemblerApplication1\main.asm</FILE><LINE>1068</LINE></PB_MODE>
+  <PB_HUP_CHECK><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\AssemblerApplication1\AssemblerApplication1\main.asm</FILE><LINE>1060</LINE></PB_HUP_CHECK>
+  <PB_HUP><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\AssemblerApplication1\AssemblerApplication1\main.asm</FILE><LINE>1078</LINE></PB_HUP>
+  <PB_HDN_CHECK><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\AssemblerApplication1\AssemblerApplication1\main.asm</FILE><LINE>1063</LINE></PB_HDN_CHECK>
+  <PB_HDN><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\AssemblerApplication1\AssemblerApplication1\main.asm</FILE><LINE>1083</LINE></PB_HDN>
+  <PB_EXIT><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\AssemblerApplication1\AssemblerApplication1\main.asm</FILE><LINE>1087</LINE></PB_EXIT>
+  <PB_MODE_SAVE><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\AssemblerApplication1\AssemblerApplication1\main.asm</FILE><LINE>1074</LINE></PB_MODE_SAVE>
+  <DELAY_BTN_D><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\AssemblerApplication1\AssemblerApplication1\main.asm</FILE><LINE>1188</LINE></DELAY_BTN_D>
+  <PD_FUP><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\AssemblerApplication1\AssemblerApplication1\main.asm</FILE><LINE>1114</LINE></PD_FUP>
+  <PD_FDN_CHECK><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\AssemblerApplication1\AssemblerApplication1\main.asm</FILE><LINE>1109</LINE></PD_FDN_CHECK>
+  <PD_FDN><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\AssemblerApplication1\AssemblerApplication1\main.asm</FILE><LINE>1119</LINE></PD_FDN>
+  <PD_EXIT><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\AssemblerApplication1\AssemblerApplication1\main.asm</FILE><LINE>1123</LINE></PD_EXIT>
+  <P_OFF><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\AssemblerApplication1\AssemblerApplication1\main.asm</FILE><LINE>1158</LINE></P_OFF>
+  <P_DONE><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\AssemblerApplication1\AssemblerApplication1\main.asm</FILE><LINE>1160</LINE></P_DONE>
+  <T1_SAVE><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\AssemblerApplication1\AssemblerApplication1\main.asm</FILE><LINE>1169</LINE></T1_SAVE>
+  <DB1><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\AssemblerApplication1\AssemblerApplication1\main.asm</FILE><LINE>1179</LINE></DB1>
+  <DB2><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\AssemblerApplication1\AssemblerApplication1\main.asm</FILE><LINE>1181</LINE></DB2>
+  <DD1><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\AssemblerApplication1\AssemblerApplication1\main.asm</FILE><LINE>1190</LINE></DD1>
+  <DD2><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\AssemblerApplication1\AssemblerApplication1\main.asm</FILE><LINE>1192</LINE></DD2>
+ </LABELS>
+</ASSEMBLER_INFO>

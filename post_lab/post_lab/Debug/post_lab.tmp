@@ -1,0 +1,44 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.2.8</VERSION>
+ <DEVICE>"ATmega328P"</DEVICE>
+ <WORKING_DIR>C:\Users\joe05\Desktop\progra_micros\post_lab\post_lab\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc</DIR>
+  <DIR>C:\Program Files (x86)\Atmel\Studio\7.0\toolchain\avr8\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Users\joe05\Desktop\progra_micros\post_lab\post_lab\main.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\m328Pdef.inc</FILE>
+  <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Users\joe05\Desktop\progra_micros\post_lab\post_lab\Debug\post_lab.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>post_lab.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>post_lab.map</FILE>
+  <FILE>post_lab.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <d_10><FILE>C:\Users\joe05\Desktop\progra_micros\post_lab\post_lab\main.asm</FILE><LINE>13</LINE></d_10>
+  <unidad><FILE>C:\Users\joe05\Desktop\progra_micros\post_lab\post_lab\main.asm</FILE><LINE>14</LINE></unidad>
+  <decenas><FILE>C:\Users\joe05\Desktop\progra_micros\post_lab\post_lab\main.asm</FILE><LINE>15</LINE></decenas>
+  <RESET><FILE>C:\Users\joe05\Desktop\progra_micros\post_lab\post_lab\main.asm</FILE><LINE>24</LINE></RESET>
+  <ISR_T0><FILE>C:\Users\joe05\Desktop\progra_micros\post_lab\post_lab\main.asm</FILE><LINE>106</LINE></ISR_T0>
+  <SETUP><FILE>C:\Users\joe05\Desktop\progra_micros\post_lab\post_lab\main.asm</FILE><LINE>42</LINE></SETUP>
+  <TS7><FILE>C:\Users\joe05\Desktop\progra_micros\post_lab\post_lab\main.asm</FILE><LINE>39</LINE></TS7>
+  <MAIN_LOOP><FILE>C:\Users\joe05\Desktop\progra_micros\post_lab\post_lab\main.asm</FILE><LINE>102</LINE></MAIN_LOOP>
+  <GUARDAR_10><FILE>C:\Users\joe05\Desktop\progra_micros\post_lab\post_lab\main.asm</FILE><LINE>154</LINE></GUARDAR_10>
+  <GUARDAR_UNIDADES><FILE>C:\Users\joe05\Desktop\progra_micros\post_lab\post_lab\main.asm</FILE><LINE>150</LINE></GUARDAR_UNIDADES>
+  <GUARDAR_DECENAS><FILE>C:\Users\joe05\Desktop\progra_micros\post_lab\post_lab\main.asm</FILE><LINE>146</LINE></GUARDAR_DECENAS>
+  <MOSTRAR><FILE>C:\Users\joe05\Desktop\progra_micros\post_lab\post_lab\main.asm</FILE><LINE>158</LINE></MOSTRAR>
+  <DECOD_7SEG><FILE>C:\Users\joe05\Desktop\progra_micros\post_lab\post_lab\main.asm</FILE><LINE>241</LINE></DECOD_7SEG>
+  <ESCRIBIR_7SEG><FILE>C:\Users\joe05\Desktop\progra_micros\post_lab\post_lab\main.asm</FILE><LINE>192</LINE></ESCRIBIR_7SEG>
+  <DELAY><FILE>C:\Users\joe05\Desktop\progra_micros\post_lab\post_lab\main.asm</FILE><LINE>259</LINE></DELAY>
+  <R1_LOOP><FILE>C:\Users\joe05\Desktop\progra_micros\post_lab\post_lab\main.asm</FILE><LINE>261</LINE></R1_LOOP>
+  <R2_LOOP><FILE>C:\Users\joe05\Desktop\progra_micros\post_lab\post_lab\main.asm</FILE><LINE>263</LINE></R2_LOOP>
+ </LABELS>
+</ASSEMBLER_INFO>

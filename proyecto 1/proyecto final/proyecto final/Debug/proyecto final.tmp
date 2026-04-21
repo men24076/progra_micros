@@ -1,0 +1,228 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.2.8</VERSION>
+ <DEVICE>"ATmega328P"</DEVICE>
+ <WORKING_DIR>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto final\proyecto final\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc</DIR>
+  <DIR>C:\Program Files (x86)\Atmel\Studio\7.0\toolchain\avr8\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto final\proyecto final\main.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\m328Pdef.inc</FILE>
+  <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto final\proyecto final\Debug\proyecto final.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>proyecto final.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>proyecto final.map</FILE>
+  <FILE>proyecto final.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <BLOQ_MODO><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto final\proyecto final\main.asm</FILE><LINE>43</LINE></BLOQ_MODO>
+  <BLOQ_MAS><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto final\proyecto final\main.asm</FILE><LINE>44</LINE></BLOQ_MAS>
+  <BLOQ_MENOS><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto final\proyecto final\main.asm</FILE><LINE>45</LINE></BLOQ_MENOS>
+  <BLOQ_CAMBIO><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto final\proyecto final\main.asm</FILE><LINE>46</LINE></BLOQ_CAMBIO>
+  <CNT_MODO><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto final\proyecto final\main.asm</FILE><LINE>48</LINE></CNT_MODO>
+  <CNT_MAS><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto final\proyecto final\main.asm</FILE><LINE>49</LINE></CNT_MAS>
+  <CNT_MENOS><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto final\proyecto final\main.asm</FILE><LINE>50</LINE></CNT_MENOS>
+  <CNT_CAMBIO><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto final\proyecto final\main.asm</FILE><LINE>51</LINE></CNT_CAMBIO>
+  <DIG_ACT><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto final\proyecto final\main.asm</FILE><LINE>53</LINE></DIG_ACT>
+  <VALOR_DIG><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto final\proyecto final\main.asm</FILE><LINE>54</LINE></VALOR_DIG>
+  <MIN_U><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto final\proyecto final\main.asm</FILE><LINE>56</LINE></MIN_U>
+  <MIN_D><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto final\proyecto final\main.asm</FILE><LINE>57</LINE></MIN_D>
+  <HOR_U><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto final\proyecto final\main.asm</FILE><LINE>58</LINE></HOR_U>
+  <HOR_D><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto final\proyecto final\main.asm</FILE><LINE>59</LINE></HOR_D>
+  <DIA_U><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto final\proyecto final\main.asm</FILE><LINE>61</LINE></DIA_U>
+  <DIA_D><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto final\proyecto final\main.asm</FILE><LINE>62</LINE></DIA_D>
+  <MES_U><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto final\proyecto final\main.asm</FILE><LINE>63</LINE></MES_U>
+  <MES_D><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto final\proyecto final\main.asm</FILE><LINE>64</LINE></MES_D>
+  <ALM_MIN_U><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto final\proyecto final\main.asm</FILE><LINE>66</LINE></ALM_MIN_U>
+  <ALM_MIN_D><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto final\proyecto final\main.asm</FILE><LINE>67</LINE></ALM_MIN_D>
+  <ALM_HOR_U><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto final\proyecto final\main.asm</FILE><LINE>68</LINE></ALM_HOR_U>
+  <ALM_HOR_D><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto final\proyecto final\main.asm</FILE><LINE>69</LINE></ALM_HOR_D>
+  <MODO_ACT><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto final\proyecto final\main.asm</FILE><LINE>71</LINE></MODO_ACT>
+  <MODE_FLAGS><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto final\proyecto final\main.asm</FILE><LINE>72</LINE></MODE_FLAGS>
+  <ACTION_FLAGS><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto final\proyecto final\main.asm</FILE><LINE>73</LINE></ACTION_FLAGS>
+  <F_ALARMA><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto final\proyecto final\main.asm</FILE><LINE>74</LINE></F_ALARMA>
+  <TICK_05S><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto final\proyecto final\main.asm</FILE><LINE>76</LINE></TICK_05S>
+  <BTN_ESTADO><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto final\proyecto final\main.asm</FILE><LINE>77</LINE></BTN_ESTADO>
+  <RESET><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto final\proyecto final\main.asm</FILE><LINE>106</LINE></RESET>
+  <ISR_PB><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto final\proyecto final\main.asm</FILE><LINE>1283</LINE></ISR_PB>
+  <ISR_PD><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto final\proyecto final\main.asm</FILE><LINE>1403</LINE></ISR_PD>
+  <ISR_T1><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto final\proyecto final\main.asm</FILE><LINE>1567</LINE></ISR_T1>
+  <ISR_T0><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto final\proyecto final\main.asm</FILE><LINE>1460</LINE></ISR_T0>
+  <TABLA_MAX_DIA><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto final\proyecto final\main.asm</FILE><LINE>93</LINE></TABLA_MAX_DIA>
+  <TABLA7SEG><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto final\proyecto final\main.asm</FILE><LINE>99</LINE></TABLA7SEG>
+  <SETUP_IO><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto final\proyecto final\main.asm</FILE><LINE>164</LINE></SETUP_IO>
+  <SETUP_RAM><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto final\proyecto final\main.asm</FILE><LINE>188</LINE></SETUP_RAM>
+  <SETUP_T0><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto final\proyecto final\main.asm</FILE><LINE>252</LINE></SETUP_T0>
+  <SETUP_T1><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto final\proyecto final\main.asm</FILE><LINE>261</LINE></SETUP_T1>
+  <SETUP_INT><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto final\proyecto final\main.asm</FILE><LINE>235</LINE></SETUP_INT>
+  <MAIN_LOOP><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto final\proyecto final\main.asm</FILE><LINE>132</LINE></MAIN_LOOP>
+  <RUT_MODO0><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto final\proyecto final\main.asm</FILE><LINE>584</LINE></RUT_MODO0>
+  <RUT_MODO1><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto final\proyecto final\main.asm</FILE><LINE>656</LINE></RUT_MODO1>
+  <RUT_MODO2><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto final\proyecto final\main.asm</FILE><LINE>665</LINE></RUT_MODO2>
+  <RUT_MODO3><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto final\proyecto final\main.asm</FILE><LINE>724</LINE></RUT_MODO3>
+  <RUT_MODO4><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto final\proyecto final\main.asm</FILE><LINE>795</LINE></RUT_MODO4>
+  <RUT_MODO5><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto final\proyecto final\main.asm</FILE><LINE>865</LINE></RUT_MODO5>
+  <RUT_MODO6><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto final\proyecto final\main.asm</FILE><LINE>1027</LINE></RUT_MODO6>
+  <RUT_MODO7><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto final\proyecto final\main.asm</FILE><LINE>1086</LINE></RUT_MODO7>
+  <MULTIPLEX><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto final\proyecto final\main.asm</FILE><LINE>1156</LINE></MULTIPLEX>
+  <ACTUALIZAR_MODE_FLAGS><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto final\proyecto final\main.asm</FILE><LINE>273</LINE></ACTUALIZAR_MODE_FLAGS>
+  <AMF_MODE0><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto final\proyecto final\main.asm</FILE><LINE>277</LINE></AMF_MODE0>
+  <AMF_MODE1><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto final\proyecto final\main.asm</FILE><LINE>283</LINE></AMF_MODE1>
+  <AMF_SAVE><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto final\proyecto final\main.asm</FILE><LINE>322</LINE></AMF_SAVE>
+  <AMF_MODE2><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto final\proyecto final\main.asm</FILE><LINE>289</LINE></AMF_MODE2>
+  <AMF_MODE3><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto final\proyecto final\main.asm</FILE><LINE>295</LINE></AMF_MODE3>
+  <AMF_MODE4><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto final\proyecto final\main.asm</FILE><LINE>301</LINE></AMF_MODE4>
+  <AMF_MODE5><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto final\proyecto final\main.asm</FILE><LINE>307</LINE></AMF_MODE5>
+  <AMF_MODE6><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto final\proyecto final\main.asm</FILE><LINE>313</LINE></AMF_MODE6>
+  <AMF_MODE7><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto final\proyecto final\main.asm</FILE><LINE>319</LINE></AMF_MODE7>
+  <MOSTRAR><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto final\proyecto final\main.asm</FILE><LINE>329</LINE></MOSTRAR>
+  <MLED_MODE0><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto final\proyecto final\main.asm</FILE><LINE>363</LINE></MLED_MODE0>
+  <MLED_MODE1><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto final\proyecto final\main.asm</FILE><LINE>368</LINE></MLED_MODE1>
+  <MLED_ALARMA_CHECK><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto final\proyecto final\main.asm</FILE><LINE>407</LINE></MLED_ALARMA_CHECK>
+  <MLED_MODE2><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto final\proyecto final\main.asm</FILE><LINE>374</LINE></MLED_MODE2>
+  <MLED_MODE3><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto final\proyecto final\main.asm</FILE><LINE>380</LINE></MLED_MODE3>
+  <MLED_MODE4><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto final\proyecto final\main.asm</FILE><LINE>386</LINE></MLED_MODE4>
+  <MLED_MODE5><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto final\proyecto final\main.asm</FILE><LINE>392</LINE></MLED_MODE5>
+  <MLED_MODE6><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto final\proyecto final\main.asm</FILE><LINE>398</LINE></MLED_MODE6>
+  <MLED_MODE7><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto final\proyecto final\main.asm</FILE><LINE>404</LINE></MLED_MODE7>
+  <MOSTRAR_LED><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto final\proyecto final\main.asm</FILE><LINE>413</LINE></MOSTRAR_LED>
+  <CARGAR_TIEMPO_FECHA><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto final\proyecto final\main.asm</FILE><LINE>417</LINE></CARGAR_TIEMPO_FECHA>
+  <GUARDAR_TIEMPO_FECHA><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto final\proyecto final\main.asm</FILE><LINE>428</LINE></GUARDAR_TIEMPO_FECHA>
+  <APAGAR_ALARMA><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto final\proyecto final\main.asm</FILE><LINE>439</LINE></APAGAR_ALARMA>
+  <REVISAR_ALARMA><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto final\proyecto final\main.asm</FILE><LINE>444</LINE></REVISAR_ALARMA>
+  <RA_FIN><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto final\proyecto final\main.asm</FILE><LINE>468</LINE></RA_FIN>
+  <OBTENER_MAX_DIA><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto final\proyecto final\main.asm</FILE><LINE>473</LINE></OBTENER_MAX_DIA>
+  <OMD_INDEX_OK><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto final\proyecto final\main.asm</FILE><LINE>480</LINE></OMD_INDEX_OK>
+  <SUMAR_FECHA><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto final\proyecto final\main.asm</FILE><LINE>503</LINE></SUMAR_FECHA>
+  <SF_VERIFICAR_MAX><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto final\proyecto final\main.asm</FILE><LINE>513</LINE></SF_VERIFICAR_MAX>
+  <SF_FIN><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto final\proyecto final\main.asm</FILE><LINE>545</LINE></SF_FIN>
+  <SF_CAMBIAR_MES><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto final\proyecto final\main.asm</FILE><LINE>524</LINE></SF_CAMBIAR_MES>
+  <SF_REV_DICIEMBRE><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto final\proyecto final\main.asm</FILE><LINE>536</LINE></SF_REV_DICIEMBRE>
+  <AJUSTAR_DIA_SEGUN_MES><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto final\proyecto final\main.asm</FILE><LINE>550</LINE></AJUSTAR_DIA_SEGUN_MES>
+  <ADM_FIN><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto final\proyecto final\main.asm</FILE><LINE>579</LINE></ADM_FIN>
+  <ADM_CORREGIR><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto final\proyecto final\main.asm</FILE><LINE>572</LINE></ADM_CORREGIR>
+  <M0_BOTONES><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto final\proyecto final\main.asm</FILE><LINE>632</LINE></M0_BOTONES>
+  <M0_GUARDAR><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto final\proyecto final\main.asm</FILE><LINE>628</LINE></M0_GUARDAR>
+  <M0_REV24><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto final\proyecto final\main.asm</FILE><LINE>610</LINE></M0_REV24>
+  <M0_SILENCIO><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto final\proyecto final\main.asm</FILE><LINE>645</LINE></M0_SILENCIO>
+  <M0_FIN><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto final\proyecto final\main.asm</FILE><LINE>650</LINE></M0_FIN>
+  <M2_SUBIR_CHECK><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto final\proyecto final\main.asm</FILE><LINE>677</LINE></M2_SUBIR_CHECK>
+  <M2_FIN><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto final\proyecto final\main.asm</FILE><LINE>682</LINE></M2_FIN>
+  <M2_BAJAR><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto final\proyecto final\main.asm</FILE><LINE>701</LINE></M2_BAJAR>
+  <M2_SUBIR><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto final\proyecto final\main.asm</FILE><LINE>685</LINE></M2_SUBIR>
+  <M2_GUARDA1><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto final\proyecto final\main.asm</FILE><LINE>696</LINE></M2_GUARDA1>
+  <M2_DEC_UNID><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto final\proyecto final\main.asm</FILE><LINE>714</LINE></M2_DEC_UNID>
+  <M2_DEC_DEC><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto final\proyecto final\main.asm</FILE><LINE>711</LINE></M2_DEC_DEC>
+  <M2_GUARDA2><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto final\proyecto final\main.asm</FILE><LINE>716</LINE></M2_GUARDA2>
+  <M3_SUBIR_CHECK><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto final\proyecto final\main.asm</FILE><LINE>736</LINE></M3_SUBIR_CHECK>
+  <M3_FIN><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto final\proyecto final\main.asm</FILE><LINE>741</LINE></M3_FIN>
+  <M3_BAJAR><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto final\proyecto final\main.asm</FILE><LINE>764</LINE></M3_BAJAR>
+  <M3_SUBIR><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto final\proyecto final\main.asm</FILE><LINE>744</LINE></M3_SUBIR>
+  <M3_REVINC><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto final\proyecto final\main.asm</FILE><LINE>752</LINE></M3_REVINC>
+  <M3_GUARDA1><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto final\proyecto final\main.asm</FILE><LINE>759</LINE></M3_GUARDA1>
+  <M3_DEC_UNI><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto final\proyecto final\main.asm</FILE><LINE>779</LINE></M3_DEC_UNI>
+  <M3_DEC_TENS><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto final\proyecto final\main.asm</FILE><LINE>775</LINE></M3_DEC_TENS>
+  <M3_GUARDA2><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto final\proyecto final\main.asm</FILE><LINE>787</LINE></M3_GUARDA2>
+  <M3_REVDEC><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto final\proyecto final\main.asm</FILE><LINE>781</LINE></M3_REVDEC>
+  <M4_SUBIR_CHECK><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto final\proyecto final\main.asm</FILE><LINE>807</LINE></M4_SUBIR_CHECK>
+  <M4_FIN><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto final\proyecto final\main.asm</FILE><LINE>812</LINE></M4_FIN>
+  <M4_BAJAR><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto final\proyecto final\main.asm</FILE><LINE>836</LINE></M4_BAJAR>
+  <M4_SUBIR><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto final\proyecto final\main.asm</FILE><LINE>815</LINE></M4_SUBIR>
+  <M4_REVINC><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto final\proyecto final\main.asm</FILE><LINE>823</LINE></M4_REVINC>
+  <M4_GUARDA1><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto final\proyecto final\main.asm</FILE><LINE>830</LINE></M4_GUARDA1>
+  <M4_DEC_UNI10><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto final\proyecto final\main.asm</FILE><LINE>847</LINE></M4_DEC_UNI10>
+  <M4_GUARDA2><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto final\proyecto final\main.asm</FILE><LINE>856</LINE></M4_GUARDA2>
+  <M4_DEC_UNI><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto final\proyecto final\main.asm</FILE><LINE>853</LINE></M4_DEC_UNI>
+  <M5_SUBIR_CHECK><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto final\proyecto final\main.asm</FILE><LINE>877</LINE></M5_SUBIR_CHECK>
+  <M5_FIN><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto final\proyecto final\main.asm</FILE><LINE>882</LINE></M5_FIN>
+  <M5_BAJAR><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto final\proyecto final\main.asm</FILE><LINE>962</LINE></M5_BAJAR>
+  <M5_SUBIR><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto final\proyecto final\main.asm</FILE><LINE>885</LINE></M5_SUBIR>
+  <M5_1012_INC><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto final\proyecto final\main.asm</FILE><LINE>895</LINE></M5_1012_INC>
+  <M5_0109_INC><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto final\proyecto final\main.asm</FILE><LINE>900</LINE></M5_0109_INC>
+  <M5_31_INC><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto final\proyecto final\main.asm</FILE><LINE>941</LINE></M5_31_INC>
+  <M5_30_INC><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto final\proyecto final\main.asm</FILE><LINE>926</LINE></M5_30_INC>
+  <M5_28_INC><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto final\proyecto final\main.asm</FILE><LINE>911</LINE></M5_28_INC>
+  <M528_REV><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto final\proyecto final\main.asm</FILE><LINE>917</LINE></M528_REV>
+  <M5_GUARDA1><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto final\proyecto final\main.asm</FILE><LINE>955</LINE></M5_GUARDA1>
+  <M530_REV><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto final\proyecto final\main.asm</FILE><LINE>932</LINE></M530_REV>
+  <M531_REV><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto final\proyecto final\main.asm</FILE><LINE>947</LINE></M531_REV>
+  <M5_DEC_NORMAL><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto final\proyecto final\main.asm</FILE><LINE>1008</LINE></M5_DEC_NORMAL>
+  <M5_1012_DEC><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto final\proyecto final\main.asm</FILE><LINE>977</LINE></M5_1012_DEC>
+  <M5_0109_DEC><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto final\proyecto final\main.asm</FILE><LINE>982</LINE></M5_0109_DEC>
+  <M5_CARGA31><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto final\proyecto final\main.asm</FILE><LINE>1003</LINE></M5_CARGA31>
+  <M5_CARGA30><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto final\proyecto final\main.asm</FILE><LINE>998</LINE></M5_CARGA30>
+  <M5_CARGA28><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto final\proyecto final\main.asm</FILE><LINE>993</LINE></M5_CARGA28>
+  <M5_GUARDA2><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto final\proyecto final\main.asm</FILE><LINE>1017</LINE></M5_GUARDA2>
+  <M5_DEC_UNI><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto final\proyecto final\main.asm</FILE><LINE>1014</LINE></M5_DEC_UNI>
+  <M6_SUBIR_CHECK><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto final\proyecto final\main.asm</FILE><LINE>1039</LINE></M6_SUBIR_CHECK>
+  <M6_FIN><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto final\proyecto final\main.asm</FILE><LINE>1044</LINE></M6_FIN>
+  <M6_BAJAR><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto final\proyecto final\main.asm</FILE><LINE>1063</LINE></M6_BAJAR>
+  <M6_SUBIR><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto final\proyecto final\main.asm</FILE><LINE>1047</LINE></M6_SUBIR>
+  <M6_GUARDA1><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto final\proyecto final\main.asm</FILE><LINE>1058</LINE></M6_GUARDA1>
+  <M6_DEC_UNI><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto final\proyecto final\main.asm</FILE><LINE>1076</LINE></M6_DEC_UNI>
+  <M6_DEC_DEC><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto final\proyecto final\main.asm</FILE><LINE>1073</LINE></M6_DEC_DEC>
+  <M6_GUARDA2><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto final\proyecto final\main.asm</FILE><LINE>1078</LINE></M6_GUARDA2>
+  <M7_SUBIR_CHECK><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto final\proyecto final\main.asm</FILE><LINE>1098</LINE></M7_SUBIR_CHECK>
+  <M7_FIN><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto final\proyecto final\main.asm</FILE><LINE>1103</LINE></M7_FIN>
+  <M7_BAJAR><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto final\proyecto final\main.asm</FILE><LINE>1126</LINE></M7_BAJAR>
+  <M7_SUBIR><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto final\proyecto final\main.asm</FILE><LINE>1106</LINE></M7_SUBIR>
+  <M7_REVINC><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto final\proyecto final\main.asm</FILE><LINE>1114</LINE></M7_REVINC>
+  <M7_GUARDA1><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto final\proyecto final\main.asm</FILE><LINE>1121</LINE></M7_GUARDA1>
+  <M7_DEC_NORMAL><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto final\proyecto final\main.asm</FILE><LINE>1140</LINE></M7_DEC_NORMAL>
+  <M7_DEC_TENS><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto final\proyecto final\main.asm</FILE><LINE>1136</LINE></M7_DEC_TENS>
+  <M7_GUARDA2><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto final\proyecto final\main.asm</FILE><LINE>1148</LINE></M7_GUARDA2>
+  <M7_REVDEC><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto final\proyecto final\main.asm</FILE><LINE>1142</LINE></M7_REVDEC>
+  <MUX_HORA><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto final\proyecto final\main.asm</FILE><LINE>1187</LINE></MUX_HORA>
+  <MUX_FECHA><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto final\proyecto final\main.asm</FILE><LINE>1218</LINE></MUX_FECHA>
+  <MUX_ALARMA><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto final\proyecto final\main.asm</FILE><LINE>1249</LINE></MUX_ALARMA>
+  <MXH_1><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto final\proyecto final\main.asm</FILE><LINE>1201</LINE></MXH_1>
+  <MXH_2><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto final\proyecto final\main.asm</FILE><LINE>1205</LINE></MXH_2>
+  <MXH_3><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto final\proyecto final\main.asm</FILE><LINE>1209</LINE></MXH_3>
+  <MXH_0><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto final\proyecto final\main.asm</FILE><LINE>1197</LINE></MXH_0>
+  <MXH_SAVE><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto final\proyecto final\main.asm</FILE><LINE>1213</LINE></MXH_SAVE>
+  <MXF_1><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto final\proyecto final\main.asm</FILE><LINE>1232</LINE></MXF_1>
+  <MXF_2><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto final\proyecto final\main.asm</FILE><LINE>1236</LINE></MXF_2>
+  <MXF_3><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto final\proyecto final\main.asm</FILE><LINE>1240</LINE></MXF_3>
+  <MXF_0><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto final\proyecto final\main.asm</FILE><LINE>1228</LINE></MXF_0>
+  <MXF_SAVE><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto final\proyecto final\main.asm</FILE><LINE>1244</LINE></MXF_SAVE>
+  <MXA_1><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto final\proyecto final\main.asm</FILE><LINE>1263</LINE></MXA_1>
+  <MXA_2><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto final\proyecto final\main.asm</FILE><LINE>1267</LINE></MXA_2>
+  <MXA_3><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto final\proyecto final\main.asm</FILE><LINE>1271</LINE></MXA_3>
+  <MXA_0><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto final\proyecto final\main.asm</FILE><LINE>1259</LINE></MXA_0>
+  <MXA_SAVE><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto final\proyecto final\main.asm</FILE><LINE>1275</LINE></MXA_SAVE>
+  <PB_REV_CAMBIO><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto final\proyecto final\main.asm</FILE><LINE>1341</LINE></PB_REV_CAMBIO>
+  <PB_MODO_A_1><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto final\proyecto final\main.asm</FILE><LINE>1318</LINE></PB_MODO_A_1>
+  <PB_MODO_A_2><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto final\proyecto final\main.asm</FILE><LINE>1321</LINE></PB_MODO_A_2>
+  <PB_MODO_A_4><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto final\proyecto final\main.asm</FILE><LINE>1324</LINE></PB_MODO_A_4>
+  <PB_MODO_A_6><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto final\proyecto final\main.asm</FILE><LINE>1327</LINE></PB_MODO_A_6>
+  <PB_MODO_A_0><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto final\proyecto final\main.asm</FILE><LINE>1330</LINE></PB_MODO_A_0>
+  <PB_GUARDA_MODO><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto final\proyecto final\main.asm</FILE><LINE>1333</LINE></PB_GUARDA_MODO>
+  <PB_SALIR><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto final\proyecto final\main.asm</FILE><LINE>1391</LINE></PB_SALIR>
+  <PB_CAMBIO_23><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto final\proyecto final\main.asm</FILE><LINE>1365</LINE></PB_CAMBIO_23>
+  <PB_CAMBIO_32><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto final\proyecto final\main.asm</FILE><LINE>1368</LINE></PB_CAMBIO_32>
+  <PB_CAMBIO_45><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto final\proyecto final\main.asm</FILE><LINE>1371</LINE></PB_CAMBIO_45>
+  <PB_CAMBIO_54><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto final\proyecto final\main.asm</FILE><LINE>1374</LINE></PB_CAMBIO_54>
+  <PB_CAMBIO_67><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto final\proyecto final\main.asm</FILE><LINE>1377</LINE></PB_CAMBIO_67>
+  <PB_CAMBIO_76><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto final\proyecto final\main.asm</FILE><LINE>1380</LINE></PB_CAMBIO_76>
+  <PB_GUARDA_CAMBIO><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto final\proyecto final\main.asm</FILE><LINE>1383</LINE></PB_GUARDA_CAMBIO>
+  <PD_REV_MENOS><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto final\proyecto final\main.asm</FILE><LINE>1431</LINE></PD_REV_MENOS>
+  <PD_FIN><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto final\proyecto final\main.asm</FILE><LINE>1448</LINE></PD_FIN>
+  <T0_CAMBIO><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto final\proyecto final\main.asm</FILE><LINE>1495</LINE></T0_CAMBIO>
+  <T0_LIB_MODO><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto final\proyecto final\main.asm</FILE><LINE>1491</LINE></T0_LIB_MODO>
+  <T0_MAS><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto final\proyecto final\main.asm</FILE><LINE>1515</LINE></T0_MAS>
+  <T0_LIB_CAMBIO><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto final\proyecto final\main.asm</FILE><LINE>1511</LINE></T0_LIB_CAMBIO>
+  <T0_MENOS><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto final\proyecto final\main.asm</FILE><LINE>1535</LINE></T0_MENOS>
+  <T0_LIB_MAS><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto final\proyecto final\main.asm</FILE><LINE>1531</LINE></T0_LIB_MAS>
+  <T0_FIN><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto final\proyecto final\main.asm</FILE><LINE>1555</LINE></T0_FIN>
+  <T0_LIB_MENOS><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto final\proyecto final\main.asm</FILE><LINE>1551</LINE></T0_LIB_MENOS>
+  <T1_GUARDA><FILE>C:\Users\joe05\Desktop\progra_micros\proyecto 1\proyecto final\proyecto final\main.asm</FILE><LINE>1591</LINE></T1_GUARDA>
+ </LABELS>
+</ASSEMBLER_INFO>
