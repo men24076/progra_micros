@@ -1,0 +1,1630 @@
+
+proyecto 2.elf:     file format elf32-avr
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .data         0000003e  00800100  000008da  0000098e  2**0
+                  CONTENTS, ALLOC, LOAD, DATA
+  1 .text         000008da  00000000  00000000  000000b4  2**1
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  2 .bss          00000021  0080013e  0080013e  000009cc  2**0
+                  ALLOC
+  3 .eeprom       00000010  00810000  00810000  000009cc  2**0
+                  CONTENTS, ALLOC, LOAD, DATA
+  4 .comment      00000030  00000000  00000000  000009dc  2**0
+                  CONTENTS, READONLY
+  5 .note.gnu.avr.deviceinfo 00000040  00000000  00000000  00000a0c  2**2
+                  CONTENTS, READONLY
+  6 .debug_aranges 000001a0  00000000  00000000  00000a50  2**3
+                  CONTENTS, READONLY, DEBUGGING
+  7 .debug_info   00001571  00000000  00000000  00000bf0  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  8 .debug_abbrev 00000b36  00000000  00000000  00002161  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  9 .debug_line   00000e95  00000000  00000000  00002c97  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 10 .debug_frame  00000300  00000000  00000000  00003b2c  2**2
+                  CONTENTS, READONLY, DEBUGGING
+ 11 .debug_str    00000685  00000000  00000000  00003e2c  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 12 .debug_loc    00000942  00000000  00000000  000044b1  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 13 .debug_ranges 00000128  00000000  00000000  00004df3  2**0
+                  CONTENTS, READONLY, DEBUGGING
+
+Disassembly of section .text:
+
+00000000 <__vectors>:
+   0:	0c 94 34 00 	jmp	0x68	; 0x68 <__ctors_end>
+   4:	0c 94 51 00 	jmp	0xa2	; 0xa2 <__bad_interrupt>
+   8:	0c 94 51 00 	jmp	0xa2	; 0xa2 <__bad_interrupt>
+   c:	0c 94 51 00 	jmp	0xa2	; 0xa2 <__bad_interrupt>
+  10:	0c 94 51 00 	jmp	0xa2	; 0xa2 <__bad_interrupt>
+  14:	0c 94 51 00 	jmp	0xa2	; 0xa2 <__bad_interrupt>
+  18:	0c 94 51 00 	jmp	0xa2	; 0xa2 <__bad_interrupt>
+  1c:	0c 94 b1 03 	jmp	0x762	; 0x762 <__vector_7>
+  20:	0c 94 51 00 	jmp	0xa2	; 0xa2 <__bad_interrupt>
+  24:	0c 94 51 00 	jmp	0xa2	; 0xa2 <__bad_interrupt>
+  28:	0c 94 51 00 	jmp	0xa2	; 0xa2 <__bad_interrupt>
+  2c:	0c 94 51 00 	jmp	0xa2	; 0xa2 <__bad_interrupt>
+  30:	0c 94 51 00 	jmp	0xa2	; 0xa2 <__bad_interrupt>
+  34:	0c 94 51 00 	jmp	0xa2	; 0xa2 <__bad_interrupt>
+  38:	0c 94 51 00 	jmp	0xa2	; 0xa2 <__bad_interrupt>
+  3c:	0c 94 51 00 	jmp	0xa2	; 0xa2 <__bad_interrupt>
+  40:	0c 94 51 00 	jmp	0xa2	; 0xa2 <__bad_interrupt>
+  44:	0c 94 51 00 	jmp	0xa2	; 0xa2 <__bad_interrupt>
+  48:	0c 94 51 00 	jmp	0xa2	; 0xa2 <__bad_interrupt>
+  4c:	0c 94 51 00 	jmp	0xa2	; 0xa2 <__bad_interrupt>
+  50:	0c 94 51 00 	jmp	0xa2	; 0xa2 <__bad_interrupt>
+  54:	0c 94 51 00 	jmp	0xa2	; 0xa2 <__bad_interrupt>
+  58:	0c 94 51 00 	jmp	0xa2	; 0xa2 <__bad_interrupt>
+  5c:	0c 94 51 00 	jmp	0xa2	; 0xa2 <__bad_interrupt>
+  60:	0c 94 51 00 	jmp	0xa2	; 0xa2 <__bad_interrupt>
+  64:	0c 94 51 00 	jmp	0xa2	; 0xa2 <__bad_interrupt>
+
+00000068 <__ctors_end>:
+  68:	11 24       	eor	r1, r1
+  6a:	1f be       	out	0x3f, r1	; 63
+  6c:	cf ef       	ldi	r28, 0xFF	; 255
+  6e:	d8 e0       	ldi	r29, 0x08	; 8
+  70:	de bf       	out	0x3e, r29	; 62
+  72:	cd bf       	out	0x3d, r28	; 61
+
+00000074 <__do_copy_data>:
+  74:	11 e0       	ldi	r17, 0x01	; 1
+  76:	a0 e0       	ldi	r26, 0x00	; 0
+  78:	b1 e0       	ldi	r27, 0x01	; 1
+  7a:	ea ed       	ldi	r30, 0xDA	; 218
+  7c:	f8 e0       	ldi	r31, 0x08	; 8
+  7e:	02 c0       	rjmp	.+4      	; 0x84 <__do_copy_data+0x10>
+  80:	05 90       	lpm	r0, Z+
+  82:	0d 92       	st	X+, r0
+  84:	ae 33       	cpi	r26, 0x3E	; 62
+  86:	b1 07       	cpc	r27, r17
+  88:	d9 f7       	brne	.-10     	; 0x80 <__do_copy_data+0xc>
+
+0000008a <__do_clear_bss>:
+  8a:	21 e0       	ldi	r18, 0x01	; 1
+  8c:	ae e3       	ldi	r26, 0x3E	; 62
+  8e:	b1 e0       	ldi	r27, 0x01	; 1
+  90:	01 c0       	rjmp	.+2      	; 0x94 <.do_clear_bss_start>
+
+00000092 <.do_clear_bss_loop>:
+  92:	1d 92       	st	X+, r1
+
+00000094 <.do_clear_bss_start>:
+  94:	af 35       	cpi	r26, 0x5F	; 95
+  96:	b2 07       	cpc	r27, r18
+  98:	e1 f7       	brne	.-8      	; 0x92 <.do_clear_bss_loop>
+  9a:	0e 94 0e 03 	call	0x61c	; 0x61c <main>
+  9e:	0c 94 6b 04 	jmp	0x8d6	; 0x8d6 <_exit>
+
+000000a2 <__bad_interrupt>:
+  a2:	0c 94 00 00 	jmp	0	; 0x0 <__vectors>
+
+000000a6 <ADC_init>:
+#include "adc.h"
+#include <avr/io.h>
+
+void ADC_init(void)
+{
+	ADMUX = (1 << REFS0); //Referencia en 5V
+  a6:	80 e4       	ldi	r24, 0x40	; 64
+  a8:	80 93 7c 00 	sts	0x007C, r24	; 0x80007c <__TEXT_REGION_LENGTH__+0x7f807c>
+
+	ADCSRA = (1 << ADEN) |
+  ac:	87 e8       	ldi	r24, 0x87	; 135
+  ae:	80 93 7a 00 	sts	0x007A, r24	; 0x80007a <__TEXT_REGION_LENGTH__+0x7f807a>
+  b2:	08 95       	ret
+
+000000b4 <ADC_read>:
+	(1 << ADPS2) | (1 << ADPS1) | (1 << ADPS0); //Habilitamos el ADC con prescaler de 128
+}
+
+uint16_t ADC_read(uint8_t channel) //Leemos el potenciometro
+{
+	channel &= 0x07; 
+  b4:	87 70       	andi	r24, 0x07	; 7
+
+	ADMUX = (ADMUX & 0xF0) | channel; //Seleccionamos el canal del adc, ya sea a0 a1 a2 o a3
+  b6:	ec e7       	ldi	r30, 0x7C	; 124
+  b8:	f0 e0       	ldi	r31, 0x00	; 0
+  ba:	90 81       	ld	r25, Z
+  bc:	90 7f       	andi	r25, 0xF0	; 240
+  be:	89 2b       	or	r24, r25
+  c0:	80 83       	st	Z, r24
+
+	ADCSRA |= (1 << ADSC); //conversión del adc
+  c2:	ea e7       	ldi	r30, 0x7A	; 122
+  c4:	f0 e0       	ldi	r31, 0x00	; 0
+  c6:	80 81       	ld	r24, Z
+  c8:	80 64       	ori	r24, 0x40	; 64
+  ca:	80 83       	st	Z, r24
+
+	while (ADCSRA & (1 << ADSC)); //espera la conversión
+  cc:	80 91 7a 00 	lds	r24, 0x007A	; 0x80007a <__TEXT_REGION_LENGTH__+0x7f807a>
+  d0:	86 fd       	sbrc	r24, 6
+  d2:	fc cf       	rjmp	.-8      	; 0xcc <ADC_read+0x18>
+
+	return ADC;
+  d4:	80 91 78 00 	lds	r24, 0x0078	; 0x800078 <__TEXT_REGION_LENGTH__+0x7f8078>
+  d8:	90 91 79 00 	lds	r25, 0x0079	; 0x800079 <__TEXT_REGION_LENGTH__+0x7f8079>
+  dc:	08 95       	ret
+
+000000de <EEPROM_Manager_init>:
+#include <stdint.h>
+
+uint8_t EEMEM ee_states[NUM_STATES][NUM_SERVOS]; //matriz de los valores guardados en la eeprom
+
+void EEPROM_Manager_init(void)
+{
+  de:	0f 93       	push	r16
+  e0:	1f 93       	push	r17
+  e2:	cf 93       	push	r28
+  e4:	df 93       	push	r29
+	uint8_t value; //Guardamos el valor leido en la eeprom
+
+	for (uint8_t state = 0; state < NUM_STATES; state++) //Recorre los 4 estados que se pueden guardar
+  e6:	00 e0       	ldi	r16, 0x00	; 0
+  e8:	19 c0       	rjmp	.+50     	; 0x11c <EEPROM_Manager_init+0x3e>
+	{
+		for (uint8_t servo = 0; servo < NUM_SERVOS; servo++) //Recorre cada 1 de los 4 servos
+		{
+			value = eeprom_read_byte(&ee_states[state][servo]); //lee la ubivavión de la eeprom
+  ea:	c0 2f       	mov	r28, r16
+  ec:	d0 e0       	ldi	r29, 0x00	; 0
+  ee:	cc 0f       	add	r28, r28
+  f0:	dd 1f       	adc	r29, r29
+  f2:	cc 0f       	add	r28, r28
+  f4:	dd 1f       	adc	r29, r29
+  f6:	c1 0f       	add	r28, r17
+  f8:	d1 1d       	adc	r29, r1
+  fa:	c0 50       	subi	r28, 0x00	; 0
+  fc:	d0 40       	sbci	r29, 0x00	; 0
+  fe:	ce 01       	movw	r24, r28
+ 100:	0e 94 51 04 	call	0x8a2	; 0x8a2 <eeprom_read_byte>
+
+			if (value > 180)
+ 104:	85 3b       	cpi	r24, 0xB5	; 181
+ 106:	20 f0       	brcs	.+8      	; 0x110 <EEPROM_Manager_init+0x32>
+			{
+				eeprom_update_byte(&ee_states[state][servo], 90); //Si hay un valor mayor a 90 lo regresa a 180
+ 108:	6a e5       	ldi	r22, 0x5A	; 90
+ 10a:	ce 01       	movw	r24, r28
+ 10c:	0e 94 59 04 	call	0x8b2	; 0x8b2 <eeprom_update_byte>
+{
+	uint8_t value; //Guardamos el valor leido en la eeprom
+
+	for (uint8_t state = 0; state < NUM_STATES; state++) //Recorre los 4 estados que se pueden guardar
+	{
+		for (uint8_t servo = 0; servo < NUM_SERVOS; servo++) //Recorre cada 1 de los 4 servos
+ 110:	1f 5f       	subi	r17, 0xFF	; 255
+ 112:	01 c0       	rjmp	.+2      	; 0x116 <EEPROM_Manager_init+0x38>
+ 114:	10 e0       	ldi	r17, 0x00	; 0
+ 116:	14 30       	cpi	r17, 0x04	; 4
+ 118:	40 f3       	brcs	.-48     	; 0xea <EEPROM_Manager_init+0xc>
+
+void EEPROM_Manager_init(void)
+{
+	uint8_t value; //Guardamos el valor leido en la eeprom
+
+	for (uint8_t state = 0; state < NUM_STATES; state++) //Recorre los 4 estados que se pueden guardar
+ 11a:	0f 5f       	subi	r16, 0xFF	; 255
+ 11c:	04 30       	cpi	r16, 0x04	; 4
+ 11e:	d0 f3       	brcs	.-12     	; 0x114 <EEPROM_Manager_init+0x36>
+			{
+				eeprom_update_byte(&ee_states[state][servo], 90); //Si hay un valor mayor a 90 lo regresa a 180
+			}
+		}
+	}
+}
+ 120:	df 91       	pop	r29
+ 122:	cf 91       	pop	r28
+ 124:	1f 91       	pop	r17
+ 126:	0f 91       	pop	r16
+ 128:	08 95       	ret
+
+0000012a <EEPROM_SaveState>:
+
+void EEPROM_SaveState(uint8_t state, uint8_t angles[4])
+{
+ 12a:	0f 93       	push	r16
+ 12c:	1f 93       	push	r17
+ 12e:	cf 93       	push	r28
+ 130:	df 93       	push	r29
+	if (state >= NUM_STATES) return; //regresa a estado 0 si se pasa de numero de estados
+ 132:	84 30       	cpi	r24, 0x04	; 4
+ 134:	e0 f4       	brcc	.+56     	; 0x16e <EEPROM_SaveState+0x44>
+ 136:	8b 01       	movw	r16, r22
+ 138:	d8 2f       	mov	r29, r24
+ 13a:	c0 e0       	ldi	r28, 0x00	; 0
+ 13c:	16 c0       	rjmp	.+44     	; 0x16a <EEPROM_SaveState+0x40>
+
+	for (uint8_t servo = 0; servo < NUM_SERVOS; servo++) //Guarda los 4 servos
+	{
+		if (angles[servo] > 180) angles[servo] = 180;
+ 13e:	f8 01       	movw	r30, r16
+ 140:	ec 0f       	add	r30, r28
+ 142:	f1 1d       	adc	r31, r1
+ 144:	80 81       	ld	r24, Z
+ 146:	85 3b       	cpi	r24, 0xB5	; 181
+ 148:	10 f0       	brcs	.+4      	; 0x14e <EEPROM_SaveState+0x24>
+ 14a:	84 eb       	ldi	r24, 0xB4	; 180
+ 14c:	80 83       	st	Z, r24
+
+		eeprom_update_byte(&ee_states[state][servo], angles[servo]); //Guarda el angulo en eeprom
+ 14e:	8d 2f       	mov	r24, r29
+ 150:	90 e0       	ldi	r25, 0x00	; 0
+ 152:	88 0f       	add	r24, r24
+ 154:	99 1f       	adc	r25, r25
+ 156:	88 0f       	add	r24, r24
+ 158:	99 1f       	adc	r25, r25
+ 15a:	8c 0f       	add	r24, r28
+ 15c:	91 1d       	adc	r25, r1
+ 15e:	60 81       	ld	r22, Z
+ 160:	80 50       	subi	r24, 0x00	; 0
+ 162:	90 40       	sbci	r25, 0x00	; 0
+ 164:	0e 94 59 04 	call	0x8b2	; 0x8b2 <eeprom_update_byte>
+
+void EEPROM_SaveState(uint8_t state, uint8_t angles[4])
+{
+	if (state >= NUM_STATES) return; //regresa a estado 0 si se pasa de numero de estados
+
+	for (uint8_t servo = 0; servo < NUM_SERVOS; servo++) //Guarda los 4 servos
+ 168:	cf 5f       	subi	r28, 0xFF	; 255
+ 16a:	c4 30       	cpi	r28, 0x04	; 4
+ 16c:	40 f3       	brcs	.-48     	; 0x13e <EEPROM_SaveState+0x14>
+	{
+		if (angles[servo] > 180) angles[servo] = 180;
+
+		eeprom_update_byte(&ee_states[state][servo], angles[servo]); //Guarda el angulo en eeprom
+	}
+}
+ 16e:	df 91       	pop	r29
+ 170:	cf 91       	pop	r28
+ 172:	1f 91       	pop	r17
+ 174:	0f 91       	pop	r16
+ 176:	08 95       	ret
+
+00000178 <EEPROM_LoadState>:
+
+void EEPROM_LoadState(uint8_t state, uint8_t angles[4]) //Carga el estado desde la eeprom
+{
+ 178:	ef 92       	push	r14
+ 17a:	ff 92       	push	r15
+ 17c:	0f 93       	push	r16
+ 17e:	1f 93       	push	r17
+ 180:	cf 93       	push	r28
+ 182:	df 93       	push	r29
+	if (state >= NUM_STATES) return;
+ 184:	84 30       	cpi	r24, 0x04	; 4
+ 186:	f0 f4       	brcc	.+60     	; 0x1c4 <EEPROM_LoadState+0x4c>
+ 188:	7b 01       	movw	r14, r22
+ 18a:	d8 2f       	mov	r29, r24
+ 18c:	c0 e0       	ldi	r28, 0x00	; 0
+ 18e:	18 c0       	rjmp	.+48     	; 0x1c0 <EEPROM_LoadState+0x48>
+
+	for (uint8_t servo = 0; servo < NUM_SERVOS; servo++) //lee los angulos del estado que se escogio
+	{
+		angles[servo] = eeprom_read_byte(&ee_states[state][servo]); //funcion con los angulos a mostrar
+ 190:	2c 2f       	mov	r18, r28
+ 192:	30 e0       	ldi	r19, 0x00	; 0
+ 194:	87 01       	movw	r16, r14
+ 196:	02 0f       	add	r16, r18
+ 198:	13 1f       	adc	r17, r19
+ 19a:	8d 2f       	mov	r24, r29
+ 19c:	90 e0       	ldi	r25, 0x00	; 0
+ 19e:	88 0f       	add	r24, r24
+ 1a0:	99 1f       	adc	r25, r25
+ 1a2:	88 0f       	add	r24, r24
+ 1a4:	99 1f       	adc	r25, r25
+ 1a6:	82 0f       	add	r24, r18
+ 1a8:	93 1f       	adc	r25, r19
+ 1aa:	80 50       	subi	r24, 0x00	; 0
+ 1ac:	90 40       	sbci	r25, 0x00	; 0
+ 1ae:	0e 94 51 04 	call	0x8a2	; 0x8a2 <eeprom_read_byte>
+ 1b2:	f8 01       	movw	r30, r16
+ 1b4:	80 83       	st	Z, r24
+
+		if (angles[servo] > 180)
+ 1b6:	85 3b       	cpi	r24, 0xB5	; 181
+ 1b8:	10 f0       	brcs	.+4      	; 0x1be <EEPROM_LoadState+0x46>
+		{
+			angles[servo] = 90;
+ 1ba:	8a e5       	ldi	r24, 0x5A	; 90
+ 1bc:	80 83       	st	Z, r24
+
+void EEPROM_LoadState(uint8_t state, uint8_t angles[4]) //Carga el estado desde la eeprom
+{
+	if (state >= NUM_STATES) return;
+
+	for (uint8_t servo = 0; servo < NUM_SERVOS; servo++) //lee los angulos del estado que se escogio
+ 1be:	cf 5f       	subi	r28, 0xFF	; 255
+ 1c0:	c4 30       	cpi	r28, 0x04	; 4
+ 1c2:	30 f3       	brcs	.-52     	; 0x190 <EEPROM_LoadState+0x18>
+		if (angles[servo] > 180)
+		{
+			angles[servo] = 90;
+		}
+	}
+ 1c4:	df 91       	pop	r29
+ 1c6:	cf 91       	pop	r28
+ 1c8:	1f 91       	pop	r17
+ 1ca:	0f 91       	pop	r16
+ 1cc:	ff 90       	pop	r15
+ 1ce:	ef 90       	pop	r14
+ 1d0:	08 95       	ret
+
+000001d2 <LED_init>:
+uint8_t uart_index = 0; //Posición dwl buffer que se guarda
+
+
+void LED_init(void)
+{
+	LED_DDR |= (1 << LED_PIN);
+ 1d2:	84 b1       	in	r24, 0x04	; 4
+ 1d4:	80 62       	ori	r24, 0x20	; 32
+ 1d6:	84 b9       	out	0x04, r24	; 4
+	LED_PORT &= ~(1 << LED_PIN); //Led apagada y configurada como salida
+ 1d8:	85 b1       	in	r24, 0x05	; 5
+ 1da:	8f 7d       	andi	r24, 0xDF	; 223
+ 1dc:	85 b9       	out	0x05, r24	; 5
+ 1de:	08 95       	ret
+
+000001e0 <LED_on>:
+}
+
+void LED_on(void)
+{
+	LED_PORT |= (1 << LED_PIN); //Led encendida
+ 1e0:	85 b1       	in	r24, 0x05	; 5
+ 1e2:	80 62       	ori	r24, 0x20	; 32
+ 1e4:	85 b9       	out	0x05, r24	; 5
+ 1e6:	08 95       	ret
+
+000001e8 <LED_off>:
+}
+
+void LED_off(void)
+{
+	LED_PORT &= ~(1 << LED_PIN); //Led apagada
+ 1e8:	85 b1       	in	r24, 0x05	; 5
+ 1ea:	8f 7d       	andi	r24, 0xDF	; 223
+ 1ec:	85 b9       	out	0x05, r24	; 5
+ 1ee:	08 95       	ret
+
+000001f0 <LED_updateMode>:
+}
+
+void LED_updateMode(void)
+{
+	if (current_mode == MODE_MANUAL) //Si esta en modo manual, led prendida siempre
+ 1f0:	80 91 44 01 	lds	r24, 0x0144	; 0x800144 <current_mode>
+ 1f4:	81 11       	cpse	r24, r1
+ 1f6:	03 c0       	rjmp	.+6      	; 0x1fe <LED_updateMode+0xe>
+	{
+		LED_on();
+ 1f8:	0e 94 f0 00 	call	0x1e0	; 0x1e0 <LED_on>
+ 1fc:	08 95       	ret
+	}
+	else
+	{
+		LED_off();
+ 1fe:	0e 94 f4 00 	call	0x1e8	; 0x1e8 <LED_off>
+ 202:	08 95       	ret
+
+00000204 <LED_intermitente>:
+	}
+}
+
+void LED_intermitente(uint8_t times) //Led titileante
+{
+ 204:	cf 93       	push	r28
+ 206:	df 93       	push	r29
+ 208:	d8 2f       	mov	r29, r24
+	for (uint8_t i = 0; i < times; i++)
+ 20a:	c0 e0       	ldi	r28, 0x00	; 0
+ 20c:	17 c0       	rjmp	.+46     	; 0x23c <LED_intermitente+0x38>
+	{
+		LED_on();
+ 20e:	0e 94 f0 00 	call	0x1e0	; 0x1e0 <LED_on>
+	#else
+		//round up by default
+		__ticks_dc = (uint32_t)(ceil(fabs(__tmp)));
+	#endif
+
+	__builtin_avr_delay_cycles(__ticks_dc);
+ 212:	2f ef       	ldi	r18, 0xFF	; 255
+ 214:	8b ed       	ldi	r24, 0xDB	; 219
+ 216:	95 e0       	ldi	r25, 0x05	; 5
+ 218:	21 50       	subi	r18, 0x01	; 1
+ 21a:	80 40       	sbci	r24, 0x00	; 0
+ 21c:	90 40       	sbci	r25, 0x00	; 0
+ 21e:	e1 f7       	brne	.-8      	; 0x218 <LED_intermitente+0x14>
+ 220:	00 c0       	rjmp	.+0      	; 0x222 <LED_intermitente+0x1e>
+ 222:	00 00       	nop
+		_delay_ms(120);
+		LED_off();
+ 224:	0e 94 f4 00 	call	0x1e8	; 0x1e8 <LED_off>
+ 228:	2f ef       	ldi	r18, 0xFF	; 255
+ 22a:	8b ed       	ldi	r24, 0xDB	; 219
+ 22c:	95 e0       	ldi	r25, 0x05	; 5
+ 22e:	21 50       	subi	r18, 0x01	; 1
+ 230:	80 40       	sbci	r24, 0x00	; 0
+ 232:	90 40       	sbci	r25, 0x00	; 0
+ 234:	e1 f7       	brne	.-8      	; 0x22e <LED_intermitente+0x2a>
+ 236:	00 c0       	rjmp	.+0      	; 0x238 <LED_intermitente+0x34>
+ 238:	00 00       	nop
+	}
+}
+
+void LED_intermitente(uint8_t times) //Led titileante
+{
+	for (uint8_t i = 0; i < times; i++)
+ 23a:	cf 5f       	subi	r28, 0xFF	; 255
+ 23c:	cd 17       	cp	r28, r29
+ 23e:	38 f3       	brcs	.-50     	; 0x20e <LED_intermitente+0xa>
+		LED_on();
+		_delay_ms(120);
+		LED_off();
+		_delay_ms(120);
+	}
+}
+ 240:	df 91       	pop	r29
+ 242:	cf 91       	pop	r28
+ 244:	08 95       	ret
+
+00000246 <ADC_angle>:
+
+
+
+uint8_t ADC_angle(uint16_t adc_value) //lectura del potenciometro en rados
+{
+	if (adc_value > 1023)
+ 246:	81 15       	cp	r24, r1
+ 248:	24 e0       	ldi	r18, 0x04	; 4
+ 24a:	92 07       	cpc	r25, r18
+ 24c:	10 f0       	brcs	.+4      	; 0x252 <ADC_angle+0xc>
+	{
+		adc_value = 1023;
+ 24e:	8f ef       	ldi	r24, 0xFF	; 255
+ 250:	93 e0       	ldi	r25, 0x03	; 3
+	}
+
+	return ((uint32_t)adc_value * 180) / 1023;
+ 252:	9c 01       	movw	r18, r24
+ 254:	a4 eb       	ldi	r26, 0xB4	; 180
+ 256:	b0 e0       	ldi	r27, 0x00	; 0
+ 258:	0e 94 42 04 	call	0x884	; 0x884 <__umulhisi3>
+ 25c:	2f ef       	ldi	r18, 0xFF	; 255
+ 25e:	33 e0       	ldi	r19, 0x03	; 3
+ 260:	40 e0       	ldi	r20, 0x00	; 0
+ 262:	50 e0       	ldi	r21, 0x00	; 0
+ 264:	0e 94 20 04 	call	0x840	; 0x840 <__udivmodsi4>
+ 268:	82 2f       	mov	r24, r18
+}
+ 26a:	08 95       	ret
+
+0000026c <servos_eeprom>:
+
+
+void servos_eeprom(void) //Al cargar estados en eeprom, esto manda a los 4 servos a la posición que deben
+{
+ 26c:	cf 93       	push	r28
+	for (uint8_t i = 0; i < NUM_SERVOS; i++)
+ 26e:	c0 e0       	ldi	r28, 0x00	; 0
+ 270:	09 c0       	rjmp	.+18     	; 0x284 <servos_eeprom+0x18>
+	{
+		Servo_angle(i, current_angles[i]);
+ 272:	ec 2f       	mov	r30, r28
+ 274:	f0 e0       	ldi	r31, 0x00	; 0
+ 276:	e0 5c       	subi	r30, 0xC0	; 192
+ 278:	fe 4f       	sbci	r31, 0xFE	; 254
+ 27a:	60 81       	ld	r22, Z
+ 27c:	8c 2f       	mov	r24, r28
+ 27e:	0e 94 81 03 	call	0x702	; 0x702 <Servo_angle>
+}
+
+
+void servos_eeprom(void) //Al cargar estados en eeprom, esto manda a los 4 servos a la posición que deben
+{
+	for (uint8_t i = 0; i < NUM_SERVOS; i++)
+ 282:	cf 5f       	subi	r28, 0xFF	; 255
+ 284:	c4 30       	cpi	r28, 0x04	; 4
+ 286:	a8 f3       	brcs	.-22     	; 0x272 <servos_eeprom+0x6>
+	{
+		Servo_angle(i, current_angles[i]);
+	}
+}
+ 288:	cf 91       	pop	r28
+ 28a:	08 95       	ret
+
+0000028c <runManualMode>:
+
+void runManualMode(void) //Modo manual
+{
+ 28c:	cf 93       	push	r28
+	for (uint8_t i = 0; i < NUM_SERVOS; i++) //Recorre los 4 servos
+ 28e:	c0 e0       	ldi	r28, 0x00	; 0
+ 290:	1d c0       	rjmp	.+58     	; 0x2cc <runManualMode+0x40>
+	{
+		uint16_t adc_value = ADC_read(i); //lee el pot
+ 292:	8c 2f       	mov	r24, r28
+ 294:	0e 94 5a 00 	call	0xb4	; 0xb4 <ADC_read>
+		uint8_t new_angle = ADC_angle(adc_value); //lectura a gradis
+ 298:	0e 94 23 01 	call	0x246	; 0x246 <ADC_angle>
+		uint8_t diff;
+
+		if (new_angle > current_angles[i])
+ 29c:	2c 2f       	mov	r18, r28
+ 29e:	30 e0       	ldi	r19, 0x00	; 0
+ 2a0:	f9 01       	movw	r30, r18
+ 2a2:	e0 5c       	subi	r30, 0xC0	; 192
+ 2a4:	fe 4f       	sbci	r31, 0xFE	; 254
+ 2a6:	90 81       	ld	r25, Z
+ 2a8:	98 17       	cp	r25, r24
+ 2aa:	20 f4       	brcc	.+8      	; 0x2b4 <runManualMode+0x28>
+		{
+			diff = new_angle - current_angles[i];
+ 2ac:	48 2f       	mov	r20, r24
+ 2ae:	49 1b       	sub	r20, r25
+ 2b0:	94 2f       	mov	r25, r20
+ 2b2:	01 c0       	rjmp	.+2      	; 0x2b6 <runManualMode+0x2a>
+		}
+		else
+		{
+			diff = current_angles[i] - new_angle;
+ 2b4:	98 1b       	sub	r25, r24
+		}
+
+		if (diff >= MANUAL_DEADBAND) //evita ruido del pot, solo mueve si cambia bastante
+ 2b6:	95 30       	cpi	r25, 0x05	; 5
+ 2b8:	40 f0       	brcs	.+16     	; 0x2ca <runManualMode+0x3e>
+		{
+			current_angles[i] = new_angle;
+ 2ba:	f9 01       	movw	r30, r18
+ 2bc:	e0 5c       	subi	r30, 0xC0	; 192
+ 2be:	fe 4f       	sbci	r31, 0xFE	; 254
+ 2c0:	80 83       	st	Z, r24
+			Servo_angle(i, current_angles[i]); //mueve el servo
+ 2c2:	68 2f       	mov	r22, r24
+ 2c4:	8c 2f       	mov	r24, r28
+ 2c6:	0e 94 81 03 	call	0x702	; 0x702 <Servo_angle>
+	}
+}
+
+void runManualMode(void) //Modo manual
+{
+	for (uint8_t i = 0; i < NUM_SERVOS; i++) //Recorre los 4 servos
+ 2ca:	cf 5f       	subi	r28, 0xFF	; 255
+ 2cc:	c4 30       	cpi	r28, 0x04	; 4
+ 2ce:	08 f3       	brcs	.-62     	; 0x292 <runManualMode+0x6>
+		{
+			current_angles[i] = new_angle;
+			Servo_angle(i, current_angles[i]); //mueve el servo
+		}
+	}
+}
+ 2d0:	cf 91       	pop	r28
+ 2d2:	08 95       	ret
+
+000002d4 <UART_sendNumber>:
+
+void UART_sendNumber(uint16_t number) //mandamos en uart en donde esta el servo
+{
+ 2d4:	0f 93       	push	r16
+ 2d6:	1f 93       	push	r17
+ 2d8:	cf 93       	push	r28
+ 2da:	df 93       	push	r29
+ 2dc:	ec 01       	movw	r28, r24
+	if (number >= 100) //Divide la posición para que se pueda leer de corrido si es de 3 numeros
+ 2de:	84 36       	cpi	r24, 0x64	; 100
+ 2e0:	91 05       	cpc	r25, r1
+ 2e2:	08 f4       	brcc	.+2      	; 0x2e6 <UART_sendNumber+0x12>
+ 2e4:	47 c0       	rjmp	.+142    	; 0x374 <UART_sendNumber+0xa0>
+	{
+		UART_sendChar((number / 100) + '0');
+ 2e6:	9c 01       	movw	r18, r24
+ 2e8:	36 95       	lsr	r19
+ 2ea:	27 95       	ror	r18
+ 2ec:	36 95       	lsr	r19
+ 2ee:	27 95       	ror	r18
+ 2f0:	ab e7       	ldi	r26, 0x7B	; 123
+ 2f2:	b4 e1       	ldi	r27, 0x14	; 20
+ 2f4:	0e 94 42 04 	call	0x884	; 0x884 <__umulhisi3>
+ 2f8:	96 95       	lsr	r25
+ 2fa:	87 95       	ror	r24
+ 2fc:	80 5d       	subi	r24, 0xD0	; 208
+ 2fe:	0e 94 0c 04 	call	0x818	; 0x818 <UART_sendChar>
+		UART_sendChar(((number / 10) % 10) + '0');
+ 302:	9e 01       	movw	r18, r28
+ 304:	ad ec       	ldi	r26, 0xCD	; 205
+ 306:	bc ec       	ldi	r27, 0xCC	; 204
+ 308:	0e 94 42 04 	call	0x884	; 0x884 <__umulhisi3>
+ 30c:	8c 01       	movw	r16, r24
+ 30e:	16 95       	lsr	r17
+ 310:	07 95       	ror	r16
+ 312:	16 95       	lsr	r17
+ 314:	07 95       	ror	r16
+ 316:	16 95       	lsr	r17
+ 318:	07 95       	ror	r16
+ 31a:	98 01       	movw	r18, r16
+ 31c:	0e 94 42 04 	call	0x884	; 0x884 <__umulhisi3>
+ 320:	96 95       	lsr	r25
+ 322:	87 95       	ror	r24
+ 324:	96 95       	lsr	r25
+ 326:	87 95       	ror	r24
+ 328:	96 95       	lsr	r25
+ 32a:	87 95       	ror	r24
+ 32c:	9c 01       	movw	r18, r24
+ 32e:	22 0f       	add	r18, r18
+ 330:	33 1f       	adc	r19, r19
+ 332:	88 0f       	add	r24, r24
+ 334:	99 1f       	adc	r25, r25
+ 336:	88 0f       	add	r24, r24
+ 338:	99 1f       	adc	r25, r25
+ 33a:	88 0f       	add	r24, r24
+ 33c:	99 1f       	adc	r25, r25
+ 33e:	82 0f       	add	r24, r18
+ 340:	93 1f       	adc	r25, r19
+ 342:	98 01       	movw	r18, r16
+ 344:	28 1b       	sub	r18, r24
+ 346:	39 0b       	sbc	r19, r25
+ 348:	c9 01       	movw	r24, r18
+ 34a:	80 5d       	subi	r24, 0xD0	; 208
+ 34c:	0e 94 0c 04 	call	0x818	; 0x818 <UART_sendChar>
+		UART_sendChar((number % 10) + '0');
+ 350:	c8 01       	movw	r24, r16
+ 352:	88 0f       	add	r24, r24
+ 354:	99 1f       	adc	r25, r25
+ 356:	00 0f       	add	r16, r16
+ 358:	11 1f       	adc	r17, r17
+ 35a:	00 0f       	add	r16, r16
+ 35c:	11 1f       	adc	r17, r17
+ 35e:	00 0f       	add	r16, r16
+ 360:	11 1f       	adc	r17, r17
+ 362:	08 0f       	add	r16, r24
+ 364:	19 1f       	adc	r17, r25
+ 366:	ce 01       	movw	r24, r28
+ 368:	80 1b       	sub	r24, r16
+ 36a:	91 0b       	sbc	r25, r17
+ 36c:	80 5d       	subi	r24, 0xD0	; 208
+ 36e:	0e 94 0c 04 	call	0x818	; 0x818 <UART_sendChar>
+ 372:	28 c0       	rjmp	.+80     	; 0x3c4 <UART_sendNumber+0xf0>
+	}
+	else if (number >= 10) //lo mismo pero de 2 números
+ 374:	8a 30       	cpi	r24, 0x0A	; 10
+ 376:	91 05       	cpc	r25, r1
+ 378:	10 f1       	brcs	.+68     	; 0x3be <UART_sendNumber+0xea>
+	{
+		UART_sendChar((number / 10) + '0');
+ 37a:	9c 01       	movw	r18, r24
+ 37c:	ad ec       	ldi	r26, 0xCD	; 205
+ 37e:	bc ec       	ldi	r27, 0xCC	; 204
+ 380:	0e 94 42 04 	call	0x884	; 0x884 <__umulhisi3>
+ 384:	8c 01       	movw	r16, r24
+ 386:	16 95       	lsr	r17
+ 388:	07 95       	ror	r16
+ 38a:	16 95       	lsr	r17
+ 38c:	07 95       	ror	r16
+ 38e:	16 95       	lsr	r17
+ 390:	07 95       	ror	r16
+ 392:	80 e3       	ldi	r24, 0x30	; 48
+ 394:	80 0f       	add	r24, r16
+ 396:	0e 94 0c 04 	call	0x818	; 0x818 <UART_sendChar>
+		UART_sendChar((number % 10) + '0');
+ 39a:	c8 01       	movw	r24, r16
+ 39c:	88 0f       	add	r24, r24
+ 39e:	99 1f       	adc	r25, r25
+ 3a0:	00 0f       	add	r16, r16
+ 3a2:	11 1f       	adc	r17, r17
+ 3a4:	00 0f       	add	r16, r16
+ 3a6:	11 1f       	adc	r17, r17
+ 3a8:	00 0f       	add	r16, r16
+ 3aa:	11 1f       	adc	r17, r17
+ 3ac:	08 0f       	add	r16, r24
+ 3ae:	19 1f       	adc	r17, r25
+ 3b0:	ce 01       	movw	r24, r28
+ 3b2:	80 1b       	sub	r24, r16
+ 3b4:	91 0b       	sbc	r25, r17
+ 3b6:	80 5d       	subi	r24, 0xD0	; 208
+ 3b8:	0e 94 0c 04 	call	0x818	; 0x818 <UART_sendChar>
+ 3bc:	03 c0       	rjmp	.+6      	; 0x3c4 <UART_sendNumber+0xf0>
+	}
+	else
+	{
+		UART_sendChar(number + '0'); //solo se manda un digito
+ 3be:	80 5d       	subi	r24, 0xD0	; 208
+ 3c0:	0e 94 0c 04 	call	0x818	; 0x818 <UART_sendChar>
+	}
+}
+ 3c4:	df 91       	pop	r29
+ 3c6:	cf 91       	pop	r28
+ 3c8:	1f 91       	pop	r17
+ 3ca:	0f 91       	pop	r16
+ 3cc:	08 95       	ret
+
+000003ce <saveCurrentState>:
+
+void saveCurrentState(void)
+{
+	EEPROM_SaveState(save_index, current_angles); //Guardamos los estados
+ 3ce:	60 e4       	ldi	r22, 0x40	; 64
+ 3d0:	71 e0       	ldi	r23, 0x01	; 1
+ 3d2:	80 91 3f 01 	lds	r24, 0x013F	; 0x80013f <save_index>
+ 3d6:	0e 94 95 00 	call	0x12a	; 0x12a <EEPROM_SaveState>
+
+	//en las siguientes lineas, mandamos el número de estado en el que se guardo, y si ya llego al máx regresa a estado 1
+	UART_sendString("Guardado estado ");
+ 3da:	84 e0       	ldi	r24, 0x04	; 4
+ 3dc:	91 e0       	ldi	r25, 0x01	; 1
+ 3de:	0e 94 13 04 	call	0x826	; 0x826 <UART_sendString>
+	UART_sendChar('1' + save_index);
+ 3e2:	80 91 3f 01 	lds	r24, 0x013F	; 0x80013f <save_index>
+ 3e6:	8f 5c       	subi	r24, 0xCF	; 207
+ 3e8:	0e 94 0c 04 	call	0x818	; 0x818 <UART_sendChar>
+	UART_sendString("\r\n");
+ 3ec:	8b e3       	ldi	r24, 0x3B	; 59
+ 3ee:	91 e0       	ldi	r25, 0x01	; 1
+ 3f0:	0e 94 13 04 	call	0x826	; 0x826 <UART_sendString>
+
+	save_index++;
+ 3f4:	80 91 3f 01 	lds	r24, 0x013F	; 0x80013f <save_index>
+ 3f8:	8f 5f       	subi	r24, 0xFF	; 255
+ 3fa:	80 93 3f 01 	sts	0x013F, r24	; 0x80013f <save_index>
+
+	if (save_index >= NUM_STATES)
+ 3fe:	84 30       	cpi	r24, 0x04	; 4
+ 400:	10 f0       	brcs	.+4      	; 0x406 <__EEPROM_REGION_LENGTH__+0x6>
+	{
+		save_index = 0;
+ 402:	10 92 3f 01 	sts	0x013F, r1	; 0x80013f <save_index>
+	}
+
+	LED_intermitente(3); //titilea para confirmar el guardado
+ 406:	83 e0       	ldi	r24, 0x03	; 3
+ 408:	0e 94 02 01 	call	0x204	; 0x204 <LED_intermitente>
+	LED_updateMode(); //vuelve al estado en el que estaba el Led
+ 40c:	0e 94 f8 00 	call	0x1f0	; 0x1f0 <LED_updateMode>
+ 410:	08 95       	ret
+
+00000412 <loadState>:
+}
+
+void loadState(uint8_t state) //Cargamos el estado en el que esta el servo
+{
+ 412:	cf 93       	push	r28
+ 414:	c8 2f       	mov	r28, r24
+	EEPROM_LoadState(state, current_angles);
+ 416:	60 e4       	ldi	r22, 0x40	; 64
+ 418:	71 e0       	ldi	r23, 0x01	; 1
+ 41a:	0e 94 bc 00 	call	0x178	; 0x178 <EEPROM_LoadState>
+
+	servos_eeprom(); //mueve los servos
+ 41e:	0e 94 36 01 	call	0x26c	; 0x26c <servos_eeprom>
+
+	current_mode = MODE_EEPROM; //Cambia a EEPROM
+ 422:	81 e0       	ldi	r24, 0x01	; 1
+ 424:	80 93 44 01 	sts	0x0144, r24	; 0x800144 <current_mode>
+	LED_updateMode();
+ 428:	0e 94 f8 00 	call	0x1f0	; 0x1f0 <LED_updateMode>
+
+	UART_sendString("Cargado estado "); //mandamos que se cambio el estado por serial
+ 42c:	85 e1       	ldi	r24, 0x15	; 21
+ 42e:	91 e0       	ldi	r25, 0x01	; 1
+ 430:	0e 94 13 04 	call	0x826	; 0x826 <UART_sendString>
+	UART_sendChar('1' + state);
+ 434:	81 e3       	ldi	r24, 0x31	; 49
+ 436:	8c 0f       	add	r24, r28
+ 438:	0e 94 0c 04 	call	0x818	; 0x818 <UART_sendChar>
+	UART_sendString("\r\n");
+ 43c:	8b e3       	ldi	r24, 0x3B	; 59
+ 43e:	91 e0       	ldi	r25, 0x01	; 1
+ 440:	0e 94 13 04 	call	0x826	; 0x826 <UART_sendString>
+}
+ 444:	cf 91       	pop	r28
+ 446:	08 95       	ret
+
+00000448 <processServoCommand>:
+// =========================
+// COMANDOS ADAFRUIT / UART
+// =========================
+
+void processServoCommand(char *cmd) //Lo siguiente es para mover los servos desde adafruit
+{
+ 448:	1f 93       	push	r17
+ 44a:	cf 93       	push	r28
+ 44c:	df 93       	push	r29
+ 44e:	fc 01       	movw	r30, r24
+	uint8_t servo = 0;
+	uint16_t angle = 0;
+
+	if (cmd[0] != 'S' && cmd[0] != 's') //Python manda S(numero de servo):angulo del servo
+ 450:	80 81       	ld	r24, Z
+ 452:	83 35       	cpi	r24, 0x53	; 83
+ 454:	19 f0       	breq	.+6      	; 0x45c <processServoCommand+0x14>
+ 456:	83 37       	cpi	r24, 0x73	; 115
+ 458:	09 f0       	breq	.+2      	; 0x45c <processServoCommand+0x14>
+ 45a:	4b c0       	rjmp	.+150    	; 0x4f2 <processServoCommand+0xaa>
+	{
+		return;
+	}
+
+	servo = cmd[1] - '1'; //Corrige para que entienda que estamos usando servo 0 1 2 y 3 no 1234
+ 45c:	11 81       	ldd	r17, Z+1	; 0x01
+ 45e:	8f ec       	ldi	r24, 0xCF	; 207
+ 460:	81 0f       	add	r24, r17
+
+	if (servo >= NUM_SERVOS)
+ 462:	84 30       	cpi	r24, 0x04	; 4
+ 464:	08 f0       	brcs	.+2      	; 0x468 <processServoCommand+0x20>
+ 466:	45 c0       	rjmp	.+138    	; 0x4f2 <processServoCommand+0xaa>
+	{
+		return;
+	}
+
+	if (cmd[2] != ':')
+ 468:	92 81       	ldd	r25, Z+2	; 0x02
+ 46a:	9a 33       	cpi	r25, 0x3A	; 58
+ 46c:	09 f0       	breq	.+2      	; 0x470 <processServoCommand+0x28>
+ 46e:	41 c0       	rjmp	.+130    	; 0x4f2 <processServoCommand+0xaa>
+ 470:	23 e0       	ldi	r18, 0x03	; 3
+ 472:	c0 e0       	ldi	r28, 0x00	; 0
+ 474:	d0 e0       	ldi	r29, 0x00	; 0
+ 476:	13 c0       	rjmp	.+38     	; 0x49e <processServoCommand+0x56>
+		return;
+	}
+
+	for (uint8_t i = 3; cmd[i] != '\0'; i++) //lee el angulo
+	{
+		if (cmd[i] >= '0' && cmd[i] <= '9') //Acepta solo numeros
+ 478:	30 ed       	ldi	r19, 0xD0	; 208
+ 47a:	39 0f       	add	r19, r25
+ 47c:	3a 30       	cpi	r19, 0x0A	; 10
+ 47e:	70 f4       	brcc	.+28     	; 0x49c <processServoCommand+0x54>
+		{
+			angle = (angle * 10) + (cmd[i] - '0'); //Convierte a un solo número
+ 480:	ae 01       	movw	r20, r28
+ 482:	44 0f       	add	r20, r20
+ 484:	55 1f       	adc	r21, r21
+ 486:	cc 0f       	add	r28, r28
+ 488:	dd 1f       	adc	r29, r29
+ 48a:	cc 0f       	add	r28, r28
+ 48c:	dd 1f       	adc	r29, r29
+ 48e:	cc 0f       	add	r28, r28
+ 490:	dd 1f       	adc	r29, r29
+ 492:	c4 0f       	add	r28, r20
+ 494:	d5 1f       	adc	r29, r21
+ 496:	c9 0f       	add	r28, r25
+ 498:	d1 1d       	adc	r29, r1
+ 49a:	e0 97       	sbiw	r28, 0x30	; 48
+	if (cmd[2] != ':')
+	{
+		return;
+	}
+
+	for (uint8_t i = 3; cmd[i] != '\0'; i++) //lee el angulo
+ 49c:	2f 5f       	subi	r18, 0xFF	; 255
+ 49e:	df 01       	movw	r26, r30
+ 4a0:	a2 0f       	add	r26, r18
+ 4a2:	b1 1d       	adc	r27, r1
+ 4a4:	9c 91       	ld	r25, X
+ 4a6:	91 11       	cpse	r25, r1
+ 4a8:	e7 cf       	rjmp	.-50     	; 0x478 <processServoCommand+0x30>
+		{
+			angle = (angle * 10) + (cmd[i] - '0'); //Convierte a un solo número
+		}
+	}
+
+	if (angle > 180)
+ 4aa:	c5 3b       	cpi	r28, 0xB5	; 181
+ 4ac:	d1 05       	cpc	r29, r1
+ 4ae:	10 f0       	brcs	.+4      	; 0x4b4 <processServoCommand+0x6c>
+	{
+		angle = 180;
+ 4b0:	c4 eb       	ldi	r28, 0xB4	; 180
+ 4b2:	d0 e0       	ldi	r29, 0x00	; 0
+	}
+
+	current_angles[servo] = angle;
+ 4b4:	e8 2f       	mov	r30, r24
+ 4b6:	f0 e0       	ldi	r31, 0x00	; 0
+ 4b8:	e0 5c       	subi	r30, 0xC0	; 192
+ 4ba:	fe 4f       	sbci	r31, 0xFE	; 254
+ 4bc:	c0 83       	st	Z, r28
+	Servo_angle(servo, current_angles[servo]); //Guardamos el angulo y luego mueve el servo
+ 4be:	6c 2f       	mov	r22, r28
+ 4c0:	0e 94 81 03 	call	0x702	; 0x702 <Servo_angle>
+
+	current_mode = MODE_UART;
+ 4c4:	82 e0       	ldi	r24, 0x02	; 2
+ 4c6:	80 93 44 01 	sts	0x0144, r24	; 0x800144 <current_mode>
+	LED_updateMode(); //Se apaga el LED
+ 4ca:	0e 94 f8 00 	call	0x1f0	; 0x1f0 <LED_updateMode>
+
+	//mandamos el ángulo en el que esta el servo
+	UART_sendString("Servo ");
+ 4ce:	85 e2       	ldi	r24, 0x25	; 37
+ 4d0:	91 e0       	ldi	r25, 0x01	; 1
+ 4d2:	0e 94 13 04 	call	0x826	; 0x826 <UART_sendString>
+	UART_sendChar('1' + servo);
+ 4d6:	81 2f       	mov	r24, r17
+ 4d8:	0e 94 0c 04 	call	0x818	; 0x818 <UART_sendChar>
+	UART_sendString(" = ");
+ 4dc:	8c e2       	ldi	r24, 0x2C	; 44
+ 4de:	91 e0       	ldi	r25, 0x01	; 1
+ 4e0:	0e 94 13 04 	call	0x826	; 0x826 <UART_sendString>
+	UART_sendNumber(angle);
+ 4e4:	ce 01       	movw	r24, r28
+ 4e6:	0e 94 6a 01 	call	0x2d4	; 0x2d4 <UART_sendNumber>
+	UART_sendString("\r\n");
+ 4ea:	8b e3       	ldi	r24, 0x3B	; 59
+ 4ec:	91 e0       	ldi	r25, 0x01	; 1
+ 4ee:	0e 94 13 04 	call	0x826	; 0x826 <UART_sendString>
+}
+ 4f2:	df 91       	pop	r29
+ 4f4:	cf 91       	pop	r28
+ 4f6:	1f 91       	pop	r17
+ 4f8:	08 95       	ret
+
+000004fa <processUART>:
+
+void processUART(void)
+{
+ 4fa:	cf 93       	push	r28
+	if (!UART_available())
+ 4fc:	0e 94 05 04 	call	0x80a	; 0x80a <UART_available>
+ 500:	88 23       	and	r24, r24
+ 502:	09 f4       	brne	.+2      	; 0x506 <processUART+0xc>
+ 504:	89 c0       	rjmp	.+274    	; 0x618 <processUART+0x11e>
+	{
+		return; //Si no han llegado datos se sale
+	}
+
+	char command = UART_read();
+ 506:	0e 94 09 04 	call	0x812	; 0x812 <UART_read>
+ 50a:	c8 2f       	mov	r28, r24
+
+	if (uart_index > 0) //Se recibió un comando
+ 50c:	e0 91 3e 01 	lds	r30, 0x013E	; 0x80013e <__data_end>
+ 510:	ee 23       	and	r30, r30
+ 512:	09 f4       	brne	.+2      	; 0x516 <processUART+0x1c>
+ 514:	47 c0       	rjmp	.+142    	; 0x5a4 <processUART+0xaa>
+	{
+		// Si llega otra S, reiniciamos el comando para evitar que quede algo como SS1:45
+		if (command == 'S' || command == 's')
+ 516:	83 35       	cpi	r24, 0x53	; 83
+ 518:	11 f0       	breq	.+4      	; 0x51e <processUART+0x24>
+ 51a:	83 37       	cpi	r24, 0x73	; 115
+ 51c:	59 f4       	brne	.+22     	; 0x534 <processUART+0x3a>
+		{
+			current_mode = MODE_UART; //Cambia a UART desde que empieza a recibir un comando de Adafruit
+ 51e:	82 e0       	ldi	r24, 0x02	; 2
+ 520:	80 93 44 01 	sts	0x0144, r24	; 0x800144 <current_mode>
+			LED_updateMode();
+ 524:	0e 94 f8 00 	call	0x1f0	; 0x1f0 <LED_updateMode>
+
+			uart_buffer[0] = command;
+ 528:	c0 93 4b 01 	sts	0x014B, r28	; 0x80014b <uart_buffer>
+			uart_index = 1;
+ 52c:	81 e0       	ldi	r24, 0x01	; 1
+ 52e:	80 93 3e 01 	sts	0x013E, r24	; 0x80013e <__data_end>
+			return;
+ 532:	72 c0       	rjmp	.+228    	; 0x618 <processUART+0x11e>
+		}
+
+		if (command == '\n' || command == '\r')
+ 534:	8a 30       	cpi	r24, 0x0A	; 10
+ 536:	11 f0       	breq	.+4      	; 0x53c <processUART+0x42>
+ 538:	8d 30       	cpi	r24, 0x0D	; 13
+ 53a:	59 f4       	brne	.+22     	; 0x552 <processUART+0x58>
+		{
+			uart_buffer[uart_index] = '\0';
+ 53c:	f0 e0       	ldi	r31, 0x00	; 0
+ 53e:	e5 5b       	subi	r30, 0xB5	; 181
+ 540:	fe 4f       	sbci	r31, 0xFE	; 254
+ 542:	10 82       	st	Z, r1
+			processServoCommand(uart_buffer); //Una vez llega el dato hasta enter se procesa
+ 544:	8b e4       	ldi	r24, 0x4B	; 75
+ 546:	91 e0       	ldi	r25, 0x01	; 1
+ 548:	0e 94 24 02 	call	0x448	; 0x448 <processServoCommand>
+			uart_index = 0;
+ 54c:	10 92 3e 01 	sts	0x013E, r1	; 0x80013e <__data_end>
+ 550:	63 c0       	rjmp	.+198    	; 0x618 <processUART+0x11e>
+		}
+		else
+		{
+			if (uart_index < 19) //Si no ha llegado a enter sigue guardando caracteres
+ 552:	e3 31       	cpi	r30, 0x13	; 19
+ 554:	20 f5       	brcc	.+72     	; 0x59e <processUART+0xa4>
+			{
+				uart_buffer[uart_index] = command;
+ 556:	ae 2f       	mov	r26, r30
+ 558:	b0 e0       	ldi	r27, 0x00	; 0
+ 55a:	a5 5b       	subi	r26, 0xB5	; 181
+ 55c:	be 4f       	sbci	r27, 0xFE	; 254
+ 55e:	8c 93       	st	X, r24
+				uart_index++;
+ 560:	ef 5f       	subi	r30, 0xFF	; 255
+ 562:	e0 93 3e 01 	sts	0x013E, r30	; 0x80013e <__data_end>
+
+				// Procesa comandos tipo S1:45 aunque no llegue ENTER
+				if (uart_index >= 4)
+ 566:	e4 30       	cpi	r30, 0x04	; 4
+ 568:	08 f4       	brcc	.+2      	; 0x56c <processUART+0x72>
+ 56a:	56 c0       	rjmp	.+172    	; 0x618 <processUART+0x11e>
+				{
+					if ((uart_buffer[0] == 'S' || uart_buffer[0] == 's') && uart_buffer[2] == ':')
+ 56c:	80 91 4b 01 	lds	r24, 0x014B	; 0x80014b <uart_buffer>
+ 570:	83 35       	cpi	r24, 0x53	; 83
+ 572:	19 f0       	breq	.+6      	; 0x57a <processUART+0x80>
+ 574:	83 37       	cpi	r24, 0x73	; 115
+ 576:	09 f0       	breq	.+2      	; 0x57a <processUART+0x80>
+ 578:	4f c0       	rjmp	.+158    	; 0x618 <processUART+0x11e>
+ 57a:	80 91 4d 01 	lds	r24, 0x014D	; 0x80014d <uart_buffer+0x2>
+ 57e:	8a 33       	cpi	r24, 0x3A	; 58
+ 580:	09 f0       	breq	.+2      	; 0x584 <processUART+0x8a>
+ 582:	4a c0       	rjmp	.+148    	; 0x618 <processUART+0x11e>
+					{
+						if (command >= '0' && command <= '9')
+ 584:	c0 53       	subi	r28, 0x30	; 48
+ 586:	ca 30       	cpi	r28, 0x0A	; 10
+ 588:	08 f0       	brcs	.+2      	; 0x58c <processUART+0x92>
+ 58a:	46 c0       	rjmp	.+140    	; 0x618 <processUART+0x11e>
+						{
+							uart_buffer[uart_index] = '\0';
+ 58c:	f0 e0       	ldi	r31, 0x00	; 0
+ 58e:	e5 5b       	subi	r30, 0xB5	; 181
+ 590:	fe 4f       	sbci	r31, 0xFE	; 254
+ 592:	10 82       	st	Z, r1
+							processServoCommand(uart_buffer);
+ 594:	8b e4       	ldi	r24, 0x4B	; 75
+ 596:	91 e0       	ldi	r25, 0x01	; 1
+ 598:	0e 94 24 02 	call	0x448	; 0x448 <processServoCommand>
+ 59c:	3d c0       	rjmp	.+122    	; 0x618 <processUART+0x11e>
+					}
+				}
+			}
+			else
+			{
+				uart_index = 0;
+ 59e:	10 92 3e 01 	sts	0x013E, r1	; 0x80013e <__data_end>
+ 5a2:	3a c0       	rjmp	.+116    	; 0x618 <processUART+0x11e>
+
+		return;
+	}
+
+	//Llego un dato
+	if (command == 'S' || command == 's') //Guarda la s en el primer espacio
+ 5a4:	83 35       	cpi	r24, 0x53	; 83
+ 5a6:	11 f0       	breq	.+4      	; 0x5ac <processUART+0xb2>
+ 5a8:	83 37       	cpi	r24, 0x73	; 115
+ 5aa:	59 f4       	brne	.+22     	; 0x5c2 <processUART+0xc8>
+	{
+		current_mode = MODE_UART; //Cambia a UART desde que empieza a recibir un comando de Adafruit
+ 5ac:	82 e0       	ldi	r24, 0x02	; 2
+ 5ae:	80 93 44 01 	sts	0x0144, r24	; 0x800144 <current_mode>
+		LED_updateMode();
+ 5b2:	0e 94 f8 00 	call	0x1f0	; 0x1f0 <LED_updateMode>
+
+		uart_buffer[0] = command;
+ 5b6:	c0 93 4b 01 	sts	0x014B, r28	; 0x80014b <uart_buffer>
+		uart_index = 1;
+ 5ba:	81 e0       	ldi	r24, 0x01	; 1
+ 5bc:	80 93 3e 01 	sts	0x013E, r24	; 0x80013e <__data_end>
+		return;
+ 5c0:	2b c0       	rjmp	.+86     	; 0x618 <processUART+0x11e>
+	}
+
+	// Cargar estados EEPROM
+	if (command == '1')
+ 5c2:	81 33       	cpi	r24, 0x31	; 49
+ 5c4:	21 f4       	brne	.+8      	; 0x5ce <processUART+0xd4>
+	{
+		loadState(0);
+ 5c6:	80 e0       	ldi	r24, 0x00	; 0
+ 5c8:	0e 94 09 02 	call	0x412	; 0x412 <loadState>
+ 5cc:	25 c0       	rjmp	.+74     	; 0x618 <processUART+0x11e>
+	}
+	else if (command == '2')
+ 5ce:	82 33       	cpi	r24, 0x32	; 50
+ 5d0:	21 f4       	brne	.+8      	; 0x5da <processUART+0xe0>
+	{
+		loadState(1);
+ 5d2:	81 e0       	ldi	r24, 0x01	; 1
+ 5d4:	0e 94 09 02 	call	0x412	; 0x412 <loadState>
+ 5d8:	1f c0       	rjmp	.+62     	; 0x618 <processUART+0x11e>
+	}
+	else if (command == '3')
+ 5da:	83 33       	cpi	r24, 0x33	; 51
+ 5dc:	21 f4       	brne	.+8      	; 0x5e6 <processUART+0xec>
+	{
+		loadState(2);
+ 5de:	82 e0       	ldi	r24, 0x02	; 2
+ 5e0:	0e 94 09 02 	call	0x412	; 0x412 <loadState>
+ 5e4:	19 c0       	rjmp	.+50     	; 0x618 <processUART+0x11e>
+	}
+	else if (command == '4')
+ 5e6:	84 33       	cpi	r24, 0x34	; 52
+ 5e8:	21 f4       	brne	.+8      	; 0x5f2 <processUART+0xf8>
+	{
+		loadState(3);
+ 5ea:	83 e0       	ldi	r24, 0x03	; 3
+ 5ec:	0e 94 09 02 	call	0x412	; 0x412 <loadState>
+ 5f0:	13 c0       	rjmp	.+38     	; 0x618 <processUART+0x11e>
+	}
+
+	// Volver a modo manual
+	else if (command == 'M' || command == 'm')
+ 5f2:	8d 34       	cpi	r24, 0x4D	; 77
+ 5f4:	11 f0       	breq	.+4      	; 0x5fa <processUART+0x100>
+ 5f6:	8d 36       	cpi	r24, 0x6D	; 109
+ 5f8:	49 f4       	brne	.+18     	; 0x60c <processUART+0x112>
+	{
+		current_mode = MODE_MANUAL;
+ 5fa:	10 92 44 01 	sts	0x0144, r1	; 0x800144 <current_mode>
+		LED_updateMode();
+ 5fe:	0e 94 f8 00 	call	0x1f0	; 0x1f0 <LED_updateMode>
+
+		UART_sendString("Modo manual\r\n");
+ 602:	80 e3       	ldi	r24, 0x30	; 48
+ 604:	91 e0       	ldi	r25, 0x01	; 1
+ 606:	0e 94 13 04 	call	0x826	; 0x826 <UART_sendString>
+ 60a:	06 c0       	rjmp	.+12     	; 0x618 <processUART+0x11e>
+	}
+
+	// Guardar estado desde Adafruit
+	// Python debe mandar G cuando se active el feed PB-TX
+	else if (command == 'G' || command == 'g')
+ 60c:	87 34       	cpi	r24, 0x47	; 71
+ 60e:	11 f0       	breq	.+4      	; 0x614 <processUART+0x11a>
+ 610:	87 36       	cpi	r24, 0x67	; 103
+ 612:	11 f4       	brne	.+4      	; 0x618 <processUART+0x11e>
+	{
+		saveCurrentState();
+ 614:	0e 94 e7 01 	call	0x3ce	; 0x3ce <saveCurrentState>
+	}
+}
+ 618:	cf 91       	pop	r28
+ 61a:	08 95       	ret
+
+0000061c <main>:
+// MAIN
+// =========================
+
+int main(void)
+{
+	ADC_init();
+ 61c:	0e 94 53 00 	call	0xa6	; 0xa6 <ADC_init>
+	Servo_init();
+ 620:	0e 94 43 03 	call	0x686	; 0x686 <Servo_init>
+	EEPROM_Manager_init();
+ 624:	0e 94 6f 00 	call	0xde	; 0xde <EEPROM_Manager_init>
+	UART_init();
+ 628:	0e 94 f9 03 	call	0x7f2	; 0x7f2 <UART_init>
+	LED_init();
+ 62c:	0e 94 e9 00 	call	0x1d2	; 0x1d2 <LED_init>
+
+	current_mode = MODE_MANUAL;
+ 630:	10 92 44 01 	sts	0x0144, r1	; 0x800144 <current_mode>
+	LED_updateMode();
+ 634:	0e 94 f8 00 	call	0x1f0	; 0x1f0 <LED_updateMode>
+ 638:	02 c0       	rjmp	.+4      	; 0x63e <main+0x22>
+
+	while (1)
+	{
+		while (UART_available()) //lee todos los caracteres que hayan llegado por serial
+		{
+			processUART(); //Revisa si llego un comando por serial
+ 63a:	0e 94 7d 02 	call	0x4fa	; 0x4fa <processUART>
+	current_mode = MODE_MANUAL;
+	LED_updateMode();
+
+	while (1)
+	{
+		while (UART_available()) //lee todos los caracteres que hayan llegado por serial
+ 63e:	0e 94 05 04 	call	0x80a	; 0x80a <UART_available>
+ 642:	81 11       	cpse	r24, r1
+ 644:	fa cf       	rjmp	.-12     	; 0x63a <main+0x1e>
+		{
+			processUART(); //Revisa si llego un comando por serial
+		}
+
+		if (current_mode == MODE_MANUAL) //Corre el modo manual y deja utilizar pots
+ 646:	80 91 44 01 	lds	r24, 0x0144	; 0x800144 <current_mode>
+ 64a:	81 11       	cpse	r24, r1
+ 64c:	02 c0       	rjmp	.+4      	; 0x652 <main+0x36>
+		{
+			runManualMode();
+ 64e:	0e 94 46 01 	call	0x28c	; 0x28c <runManualMode>
+ 652:	8f e9       	ldi	r24, 0x9F	; 159
+ 654:	9f e0       	ldi	r25, 0x0F	; 15
+ 656:	01 97       	sbiw	r24, 0x01	; 1
+ 658:	f1 f7       	brne	.-4      	; 0x656 <main+0x3a>
+ 65a:	00 c0       	rjmp	.+0      	; 0x65c <main+0x40>
+ 65c:	00 00       	nop
+ 65e:	ef cf       	rjmp	.-34     	; 0x63e <main+0x22>
+
+00000660 <angleToPulse>:
+uint8_t Servo_save(uint8_t servo)
+{
+	if (servo >= NUM_SERVOS) return 90;
+
+	return servo_angle[servo]; //guarda el ángulo del servo, y si no existe lo regresa a 90
+}
+ 660:	85 3b       	cpi	r24, 0xB5	; 181
+ 662:	08 f0       	brcs	.+2      	; 0x666 <angleToPulse+0x6>
+ 664:	84 eb       	ldi	r24, 0xB4	; 180
+ 666:	28 2f       	mov	r18, r24
+ 668:	30 e0       	ldi	r19, 0x00	; 0
+ 66a:	a8 e0       	ldi	r26, 0x08	; 8
+ 66c:	b7 e0       	ldi	r27, 0x07	; 7
+ 66e:	0e 94 42 04 	call	0x884	; 0x884 <__umulhisi3>
+ 672:	24 eb       	ldi	r18, 0xB4	; 180
+ 674:	30 e0       	ldi	r19, 0x00	; 0
+ 676:	40 e0       	ldi	r20, 0x00	; 0
+ 678:	50 e0       	ldi	r21, 0x00	; 0
+ 67a:	0e 94 20 04 	call	0x840	; 0x840 <__udivmodsi4>
+ 67e:	c9 01       	movw	r24, r18
+ 680:	88 5a       	subi	r24, 0xA8	; 168
+ 682:	9d 4f       	sbci	r25, 0xFD	; 253
+ 684:	08 95       	ret
+
+00000686 <Servo_init>:
+ 686:	84 b1       	in	r24, 0x04	; 4
+ 688:	8e 60       	ori	r24, 0x0E	; 14
+ 68a:	84 b9       	out	0x04, r24	; 4
+ 68c:	8a b1       	in	r24, 0x0a	; 10
+ 68e:	88 60       	ori	r24, 0x08	; 8
+ 690:	8a b9       	out	0x0a, r24	; 10
+ 692:	a0 e8       	ldi	r26, 0x80	; 128
+ 694:	b0 e0       	ldi	r27, 0x00	; 0
+ 696:	1c 92       	st	X, r1
+ 698:	e1 e8       	ldi	r30, 0x81	; 129
+ 69a:	f0 e0       	ldi	r31, 0x00	; 0
+ 69c:	10 82       	st	Z, r1
+ 69e:	8c 91       	ld	r24, X
+ 6a0:	80 6a       	ori	r24, 0xA0	; 160
+ 6a2:	8c 93       	st	X, r24
+ 6a4:	8c 91       	ld	r24, X
+ 6a6:	82 60       	ori	r24, 0x02	; 2
+ 6a8:	8c 93       	st	X, r24
+ 6aa:	80 81       	ld	r24, Z
+ 6ac:	88 61       	ori	r24, 0x18	; 24
+ 6ae:	80 83       	st	Z, r24
+ 6b0:	80 81       	ld	r24, Z
+ 6b2:	82 60       	ori	r24, 0x02	; 2
+ 6b4:	80 83       	st	Z, r24
+ 6b6:	8f e3       	ldi	r24, 0x3F	; 63
+ 6b8:	9c e9       	ldi	r25, 0x9C	; 156
+ 6ba:	90 93 87 00 	sts	0x0087, r25	; 0x800087 <__TEXT_REGION_LENGTH__+0x7f8087>
+ 6be:	80 93 86 00 	sts	0x0086, r24	; 0x800086 <__TEXT_REGION_LENGTH__+0x7f8086>
+ 6c2:	88 eb       	ldi	r24, 0xB8	; 184
+ 6c4:	9b e0       	ldi	r25, 0x0B	; 11
+ 6c6:	90 93 89 00 	sts	0x0089, r25	; 0x800089 <__TEXT_REGION_LENGTH__+0x7f8089>
+ 6ca:	80 93 88 00 	sts	0x0088, r24	; 0x800088 <__TEXT_REGION_LENGTH__+0x7f8088>
+ 6ce:	90 93 8b 00 	sts	0x008B, r25	; 0x80008b <__TEXT_REGION_LENGTH__+0x7f808b>
+ 6d2:	80 93 8a 00 	sts	0x008A, r24	; 0x80008a <__TEXT_REGION_LENGTH__+0x7f808a>
+ 6d6:	a0 eb       	ldi	r26, 0xB0	; 176
+ 6d8:	b0 e0       	ldi	r27, 0x00	; 0
+ 6da:	1c 92       	st	X, r1
+ 6dc:	e1 eb       	ldi	r30, 0xB1	; 177
+ 6de:	f0 e0       	ldi	r31, 0x00	; 0
+ 6e0:	10 82       	st	Z, r1
+ 6e2:	8c 91       	ld	r24, X
+ 6e4:	82 60       	ori	r24, 0x02	; 2
+ 6e6:	8c 93       	st	X, r24
+ 6e8:	80 81       	ld	r24, Z
+ 6ea:	82 60       	ori	r24, 0x02	; 2
+ 6ec:	80 83       	st	Z, r24
+ 6ee:	83 e1       	ldi	r24, 0x13	; 19
+ 6f0:	80 93 b3 00 	sts	0x00B3, r24	; 0x8000b3 <__TEXT_REGION_LENGTH__+0x7f80b3>
+ 6f4:	e0 e7       	ldi	r30, 0x70	; 112
+ 6f6:	f0 e0       	ldi	r31, 0x00	; 0
+ 6f8:	80 81       	ld	r24, Z
+ 6fa:	82 60       	ori	r24, 0x02	; 2
+ 6fc:	80 83       	st	Z, r24
+ 6fe:	78 94       	sei
+ 700:	08 95       	ret
+
+00000702 <Servo_angle>:
+ 702:	cf 93       	push	r28
+ 704:	c8 2f       	mov	r28, r24
+ 706:	84 30       	cpi	r24, 0x04	; 4
+ 708:	50 f5       	brcc	.+84     	; 0x75e <Servo_angle+0x5c>
+ 70a:	65 3b       	cpi	r22, 0xB5	; 181
+ 70c:	08 f0       	brcs	.+2      	; 0x710 <Servo_angle+0xe>
+ 70e:	64 eb       	ldi	r22, 0xB4	; 180
+ 710:	ec 2f       	mov	r30, r28
+ 712:	f0 e0       	ldi	r31, 0x00	; 0
+ 714:	e9 5b       	subi	r30, 0xB9	; 185
+ 716:	fe 4f       	sbci	r31, 0xFE	; 254
+ 718:	60 83       	st	Z, r22
+ 71a:	86 2f       	mov	r24, r22
+ 71c:	0e 94 30 03 	call	0x660	; 0x660 <angleToPulse>
+ 720:	c1 11       	cpse	r28, r1
+ 722:	07 c0       	rjmp	.+14     	; 0x732 <Servo_angle+0x30>
+ 724:	88 0f       	add	r24, r24
+ 726:	99 1f       	adc	r25, r25
+ 728:	90 93 89 00 	sts	0x0089, r25	; 0x800089 <__TEXT_REGION_LENGTH__+0x7f8089>
+ 72c:	80 93 88 00 	sts	0x0088, r24	; 0x800088 <__TEXT_REGION_LENGTH__+0x7f8088>
+ 730:	16 c0       	rjmp	.+44     	; 0x75e <Servo_angle+0x5c>
+ 732:	c1 30       	cpi	r28, 0x01	; 1
+ 734:	39 f4       	brne	.+14     	; 0x744 <Servo_angle+0x42>
+ 736:	88 0f       	add	r24, r24
+ 738:	99 1f       	adc	r25, r25
+ 73a:	90 93 8b 00 	sts	0x008B, r25	; 0x80008b <__TEXT_REGION_LENGTH__+0x7f808b>
+ 73e:	80 93 8a 00 	sts	0x008A, r24	; 0x80008a <__TEXT_REGION_LENGTH__+0x7f808a>
+ 742:	0d c0       	rjmp	.+26     	; 0x75e <Servo_angle+0x5c>
+ 744:	c2 30       	cpi	r28, 0x02	; 2
+ 746:	29 f4       	brne	.+10     	; 0x752 <Servo_angle+0x50>
+ 748:	90 93 03 01 	sts	0x0103, r25	; 0x800103 <servo3_pulse_us+0x1>
+ 74c:	80 93 02 01 	sts	0x0102, r24	; 0x800102 <servo3_pulse_us>
+ 750:	06 c0       	rjmp	.+12     	; 0x75e <Servo_angle+0x5c>
+ 752:	c3 30       	cpi	r28, 0x03	; 3
+ 754:	21 f4       	brne	.+8      	; 0x75e <Servo_angle+0x5c>
+ 756:	90 93 01 01 	sts	0x0101, r25	; 0x800101 <__DATA_REGION_ORIGIN__+0x1>
+ 75a:	80 93 00 01 	sts	0x0100, r24	; 0x800100 <__DATA_REGION_ORIGIN__>
+ 75e:	cf 91       	pop	r28
+ 760:	08 95       	ret
+
+00000762 <__vector_7>:
+
+ISR(TIMER2_COMPA_vect)
+{
+ 762:	1f 92       	push	r1
+ 764:	0f 92       	push	r0
+ 766:	0f b6       	in	r0, 0x3f	; 63
+ 768:	0f 92       	push	r0
+ 76a:	11 24       	eor	r1, r1
+ 76c:	2f 93       	push	r18
+ 76e:	3f 93       	push	r19
+ 770:	8f 93       	push	r24
+ 772:	9f 93       	push	r25
+	timer2_time_us += 10; //La interrupción ocurre cada 10 micros entonces aumenta el contador
+ 774:	80 91 45 01 	lds	r24, 0x0145	; 0x800145 <timer2_time_us>
+ 778:	90 91 46 01 	lds	r25, 0x0146	; 0x800146 <timer2_time_us+0x1>
+ 77c:	0a 96       	adiw	r24, 0x0a	; 10
+ 77e:	90 93 46 01 	sts	0x0146, r25	; 0x800146 <timer2_time_us+0x1>
+ 782:	80 93 45 01 	sts	0x0145, r24	; 0x800145 <timer2_time_us>
+
+	if (timer2_time_us >= 20000) //Reinicia la pwm cuando ya pasaron 20 ms
+ 786:	80 91 45 01 	lds	r24, 0x0145	; 0x800145 <timer2_time_us>
+ 78a:	90 91 46 01 	lds	r25, 0x0146	; 0x800146 <timer2_time_us+0x1>
+ 78e:	80 32       	cpi	r24, 0x20	; 32
+ 790:	9e 44       	sbci	r25, 0x4E	; 78
+ 792:	50 f0       	brcs	.+20     	; 0x7a8 <__vector_7+0x46>
+	{
+		timer2_time_us = 0;
+ 794:	10 92 46 01 	sts	0x0146, r1	; 0x800146 <timer2_time_us+0x1>
+ 798:	10 92 45 01 	sts	0x0145, r1	; 0x800145 <timer2_time_us>
+
+		PORTD |= (1 << PD3); //enciende servo 3 y 4
+ 79c:	8b b1       	in	r24, 0x0b	; 11
+ 79e:	88 60       	ori	r24, 0x08	; 8
+ 7a0:	8b b9       	out	0x0b, r24	; 11
+		PORTB |= (1 << PB3);
+ 7a2:	85 b1       	in	r24, 0x05	; 5
+ 7a4:	88 60       	ori	r24, 0x08	; 8
+ 7a6:	85 b9       	out	0x05, r24	; 5
+	}
+
+	if (timer2_time_us >= servo3_pulse_us) //apaga el servo 1 vez supera los pulsos del mismo
+ 7a8:	20 91 45 01 	lds	r18, 0x0145	; 0x800145 <timer2_time_us>
+ 7ac:	30 91 46 01 	lds	r19, 0x0146	; 0x800146 <timer2_time_us+0x1>
+ 7b0:	80 91 02 01 	lds	r24, 0x0102	; 0x800102 <servo3_pulse_us>
+ 7b4:	90 91 03 01 	lds	r25, 0x0103	; 0x800103 <servo3_pulse_us+0x1>
+ 7b8:	28 17       	cp	r18, r24
+ 7ba:	39 07       	cpc	r19, r25
+ 7bc:	18 f0       	brcs	.+6      	; 0x7c4 <__vector_7+0x62>
+	{
+		PORTD &= ~(1 << PD3);
+ 7be:	8b b1       	in	r24, 0x0b	; 11
+ 7c0:	87 7f       	andi	r24, 0xF7	; 247
+ 7c2:	8b b9       	out	0x0b, r24	; 11
+	}
+
+	if (timer2_time_us >= servo4_pulse_us)
+ 7c4:	20 91 45 01 	lds	r18, 0x0145	; 0x800145 <timer2_time_us>
+ 7c8:	30 91 46 01 	lds	r19, 0x0146	; 0x800146 <timer2_time_us+0x1>
+ 7cc:	80 91 00 01 	lds	r24, 0x0100	; 0x800100 <__DATA_REGION_ORIGIN__>
+ 7d0:	90 91 01 01 	lds	r25, 0x0101	; 0x800101 <__DATA_REGION_ORIGIN__+0x1>
+ 7d4:	28 17       	cp	r18, r24
+ 7d6:	39 07       	cpc	r19, r25
+ 7d8:	18 f0       	brcs	.+6      	; 0x7e0 <__vector_7+0x7e>
+	{
+		PORTB &= ~(1 << PB3);
+ 7da:	85 b1       	in	r24, 0x05	; 5
+ 7dc:	87 7f       	andi	r24, 0xF7	; 247
+ 7de:	85 b9       	out	0x05, r24	; 5
+	}
+ 7e0:	9f 91       	pop	r25
+ 7e2:	8f 91       	pop	r24
+ 7e4:	3f 91       	pop	r19
+ 7e6:	2f 91       	pop	r18
+ 7e8:	0f 90       	pop	r0
+ 7ea:	0f be       	out	0x3f, r0	; 63
+ 7ec:	0f 90       	pop	r0
+ 7ee:	1f 90       	pop	r1
+ 7f0:	18 95       	reti
+
+000007f2 <UART_init>:
+#define BAUD 9600 //Baud rate a 9600
+#define UBRR_VALUE ((F_CPU / 16 / BAUD) - 1) //Determina el valor del UBBR para que vaya a 9600
+
+void UART_init(void)
+{
+	UBRR0H = (uint8_t)(UBRR_VALUE >> 8); //Parte alta y baja del ubbr
+ 7f2:	10 92 c5 00 	sts	0x00C5, r1	; 0x8000c5 <__TEXT_REGION_LENGTH__+0x7f80c5>
+	UBRR0L = (uint8_t)UBRR_VALUE;
+ 7f6:	87 e6       	ldi	r24, 0x67	; 103
+ 7f8:	80 93 c4 00 	sts	0x00C4, r24	; 0x8000c4 <__TEXT_REGION_LENGTH__+0x7f80c4>
+
+	UCSR0B = (1 << RXEN0) | (1 << TXEN0); //Activamos recepción y transmisión en la uart
+ 7fc:	88 e1       	ldi	r24, 0x18	; 24
+ 7fe:	80 93 c1 00 	sts	0x00C1, r24	; 0x8000c1 <__TEXT_REGION_LENGTH__+0x7f80c1>
+
+	UCSR0C = (1 << UCSZ01) | (1 << UCSZ00); //Sin paridad y un stop bit
+ 802:	86 e0       	ldi	r24, 0x06	; 6
+ 804:	80 93 c2 00 	sts	0x00C2, r24	; 0x8000c2 <__TEXT_REGION_LENGTH__+0x7f80c2>
+ 808:	08 95       	ret
+
+0000080a <UART_available>:
+}
+
+uint8_t UART_available(void)
+{
+	return (UCSR0A & (1 << RXC0)); //Indicamos que ya llego un dato
+ 80a:	80 91 c0 00 	lds	r24, 0x00C0	; 0x8000c0 <__TEXT_REGION_LENGTH__+0x7f80c0>
+}
+ 80e:	80 78       	andi	r24, 0x80	; 128
+ 810:	08 95       	ret
+
+00000812 <UART_read>:
+
+char UART_read(void)
+{
+	return UDR0; //leemos el dato recibido
+ 812:	80 91 c6 00 	lds	r24, 0x00C6	; 0x8000c6 <__TEXT_REGION_LENGTH__+0x7f80c6>
+}
+ 816:	08 95       	ret
+
+00000818 <UART_sendChar>:
+
+void UART_sendChar(char data)
+{
+	while (!(UCSR0A & (1 << UDRE0))); //Esperamos a que este vacío para enviar un dato
+ 818:	90 91 c0 00 	lds	r25, 0x00C0	; 0x8000c0 <__TEXT_REGION_LENGTH__+0x7f80c0>
+ 81c:	95 ff       	sbrs	r25, 5
+ 81e:	fc cf       	rjmp	.-8      	; 0x818 <UART_sendChar>
+
+	UDR0 = data; //Dato enviado
+ 820:	80 93 c6 00 	sts	0x00C6, r24	; 0x8000c6 <__TEXT_REGION_LENGTH__+0x7f80c6>
+ 824:	08 95       	ret
+
+00000826 <UART_sendString>:
+}
+
+void UART_sendString(const char *str) //Envia un texto completo a través del puntero
+{
+ 826:	cf 93       	push	r28
+ 828:	df 93       	push	r29
+ 82a:	ec 01       	movw	r28, r24
+	while (*str)
+ 82c:	03 c0       	rjmp	.+6      	; 0x834 <UART_sendString+0xe>
+	{
+		UART_sendChar(*str);
+ 82e:	0e 94 0c 04 	call	0x818	; 0x818 <UART_sendChar>
+		str++; //Envia caractéres hasta que se acaben
+ 832:	21 96       	adiw	r28, 0x01	; 1
+	UDR0 = data; //Dato enviado
+}
+
+void UART_sendString(const char *str) //Envia un texto completo a través del puntero
+{
+	while (*str)
+ 834:	88 81       	ld	r24, Y
+ 836:	81 11       	cpse	r24, r1
+ 838:	fa cf       	rjmp	.-12     	; 0x82e <UART_sendString+0x8>
+	{
+		UART_sendChar(*str);
+		str++; //Envia caractéres hasta que se acaben
+	}
+ 83a:	df 91       	pop	r29
+ 83c:	cf 91       	pop	r28
+ 83e:	08 95       	ret
+
+00000840 <__udivmodsi4>:
+ 840:	a1 e2       	ldi	r26, 0x21	; 33
+ 842:	1a 2e       	mov	r1, r26
+ 844:	aa 1b       	sub	r26, r26
+ 846:	bb 1b       	sub	r27, r27
+ 848:	fd 01       	movw	r30, r26
+ 84a:	0d c0       	rjmp	.+26     	; 0x866 <__udivmodsi4_ep>
+
+0000084c <__udivmodsi4_loop>:
+ 84c:	aa 1f       	adc	r26, r26
+ 84e:	bb 1f       	adc	r27, r27
+ 850:	ee 1f       	adc	r30, r30
+ 852:	ff 1f       	adc	r31, r31
+ 854:	a2 17       	cp	r26, r18
+ 856:	b3 07       	cpc	r27, r19
+ 858:	e4 07       	cpc	r30, r20
+ 85a:	f5 07       	cpc	r31, r21
+ 85c:	20 f0       	brcs	.+8      	; 0x866 <__udivmodsi4_ep>
+ 85e:	a2 1b       	sub	r26, r18
+ 860:	b3 0b       	sbc	r27, r19
+ 862:	e4 0b       	sbc	r30, r20
+ 864:	f5 0b       	sbc	r31, r21
+
+00000866 <__udivmodsi4_ep>:
+ 866:	66 1f       	adc	r22, r22
+ 868:	77 1f       	adc	r23, r23
+ 86a:	88 1f       	adc	r24, r24
+ 86c:	99 1f       	adc	r25, r25
+ 86e:	1a 94       	dec	r1
+ 870:	69 f7       	brne	.-38     	; 0x84c <__udivmodsi4_loop>
+ 872:	60 95       	com	r22
+ 874:	70 95       	com	r23
+ 876:	80 95       	com	r24
+ 878:	90 95       	com	r25
+ 87a:	9b 01       	movw	r18, r22
+ 87c:	ac 01       	movw	r20, r24
+ 87e:	bd 01       	movw	r22, r26
+ 880:	cf 01       	movw	r24, r30
+ 882:	08 95       	ret
+
+00000884 <__umulhisi3>:
+ 884:	a2 9f       	mul	r26, r18
+ 886:	b0 01       	movw	r22, r0
+ 888:	b3 9f       	mul	r27, r19
+ 88a:	c0 01       	movw	r24, r0
+ 88c:	a3 9f       	mul	r26, r19
+ 88e:	70 0d       	add	r23, r0
+ 890:	81 1d       	adc	r24, r1
+ 892:	11 24       	eor	r1, r1
+ 894:	91 1d       	adc	r25, r1
+ 896:	b2 9f       	mul	r27, r18
+ 898:	70 0d       	add	r23, r0
+ 89a:	81 1d       	adc	r24, r1
+ 89c:	11 24       	eor	r1, r1
+ 89e:	91 1d       	adc	r25, r1
+ 8a0:	08 95       	ret
+
+000008a2 <eeprom_read_byte>:
+ 8a2:	f9 99       	sbic	0x1f, 1	; 31
+ 8a4:	fe cf       	rjmp	.-4      	; 0x8a2 <eeprom_read_byte>
+ 8a6:	92 bd       	out	0x22, r25	; 34
+ 8a8:	81 bd       	out	0x21, r24	; 33
+ 8aa:	f8 9a       	sbi	0x1f, 0	; 31
+ 8ac:	99 27       	eor	r25, r25
+ 8ae:	80 b5       	in	r24, 0x20	; 32
+ 8b0:	08 95       	ret
+
+000008b2 <eeprom_update_byte>:
+ 8b2:	26 2f       	mov	r18, r22
+
+000008b4 <eeprom_update_r18>:
+ 8b4:	f9 99       	sbic	0x1f, 1	; 31
+ 8b6:	fe cf       	rjmp	.-4      	; 0x8b4 <eeprom_update_r18>
+ 8b8:	92 bd       	out	0x22, r25	; 34
+ 8ba:	81 bd       	out	0x21, r24	; 33
+ 8bc:	f8 9a       	sbi	0x1f, 0	; 31
+ 8be:	01 97       	sbiw	r24, 0x01	; 1
+ 8c0:	00 b4       	in	r0, 0x20	; 32
+ 8c2:	02 16       	cp	r0, r18
+ 8c4:	39 f0       	breq	.+14     	; 0x8d4 <eeprom_update_r18+0x20>
+ 8c6:	1f ba       	out	0x1f, r1	; 31
+ 8c8:	20 bd       	out	0x20, r18	; 32
+ 8ca:	0f b6       	in	r0, 0x3f	; 63
+ 8cc:	f8 94       	cli
+ 8ce:	fa 9a       	sbi	0x1f, 2	; 31
+ 8d0:	f9 9a       	sbi	0x1f, 1	; 31
+ 8d2:	0f be       	out	0x3f, r0	; 63
+ 8d4:	08 95       	ret
+
+000008d6 <_exit>:
+ 8d6:	f8 94       	cli
+
+000008d8 <__stop_program>:
+ 8d8:	ff cf       	rjmp	.-2      	; 0x8d8 <__stop_program>
