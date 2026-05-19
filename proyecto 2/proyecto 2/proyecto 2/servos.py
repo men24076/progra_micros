@@ -13,7 +13,7 @@ from Adafruit_IO import MQTTClient
 # =========================
 
 ADAFRUIT_IO_USERNAME = "men24076"
-ADAFRUIT_IO_KEY = "aio_FIdU72CWcUzFySBoJ7YMqTGYN5kH"
+ADAFRUIT_IO_KEY = #no me deja subir a github mi clave jaja 
 
 # =========================
 # CONFIGURACIÓN SERIAL
